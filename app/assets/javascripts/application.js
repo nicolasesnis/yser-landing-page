@@ -15,4 +15,6 @@
 //= require turbolinks
 //= require bootstrap-sprockets
 
+//= require all.js
+
 //= require_tree .

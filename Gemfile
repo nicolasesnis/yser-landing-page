@@ -12,8 +12,6 @@ gem 'rails', '~> 5.0.6'
 gem 'pg', '~> 0.18'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
-# Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
@@ -54,7 +52,10 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 ruby '2.5.0'
 
-gem "bootstrap-sass"
+gem 'bootstrap-sass', '~> 3.3.7'
+gem 'sass-rails', '>= 3.2'
+
+
 gem "font-awesome-sass"
 gem "simple_form"
 gem "autoprefixer-rails"
@@ -62,4 +63,15 @@ gem "autoprefixer-rails"
 gem 'figaro'
 gem 'cloudinary'
 gem 'carrierwave', '~> 0.11.2'
+
+gem 'bootstrap-validator-rails'
+gem 'jquery-easing-rails'
+gem 'magnific-popup-rails', '~> 1.1.0'
+gem 'mixitup_rails'
+gem 'lightbox2-rails'
+gem 'owlcarousel-rails'
+gem 'popper_js', '~> 1.12.9'
+gem 'waypoints-rails'
+gem 'wow-rails'
+
 
