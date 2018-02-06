@@ -33797,7 +33797,7 @@ button:focus {
   ========================================================================== */
 /* line 582, /Users/Nicolas/code/nicolasesnis/yser-landing-page/app/assets/stylesheets/mate-template/scss/_main.scss */
 #features {
-  background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('https://fr.cdn.v5.futura-sciences.com/buildsv6/images/wide1920/b/a/f/baf9ee1e76_89352_def-datacenter.jpg');
+  background-image: url('https://fr.cdn.v5.futura-sciences.com/buildsv6/images/wide1920/b/a/f/baf9ee1e76_89352_def-datacenter.jpg');
   background-size: cover;
   color: #fff;
   overflow: hidden;
@@ -34219,7 +34219,7 @@ button:focus {
 /* line 951, /Users/Nicolas/code/nicolasesnis/yser-landing-page/app/assets/stylesheets/mate-template/scss/_main.scss */
 .single-team .team-details .team-title {
   margin-bottom: 5px;
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 700;
   color: #333;
 }

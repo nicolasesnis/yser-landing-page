@@ -57,6 +57,8 @@ gem 'sass-rails', '>= 3.2'
 
 
 gem "font-awesome-sass"
+gem "font-awesome-rails"
+
 gem "simple_form"
 gem "autoprefixer-rails"
 
