@@ -33150,7 +33150,7 @@ p {
 
 /* line 76, /Users/Nicolas/code/nicolasesnis/yser-landing-page/app/assets/stylesheets/mate-template/scss/_main.scss */
 a:hover, a:focus {
-  color: #61D2B4;
+  color: rgb(243,206,85);
 }
 
 /* line 79, /Users/Nicolas/code/nicolasesnis/yser-landing-page/app/assets/stylesheets/mate-template/scss/_main.scss */
@@ -33190,7 +33190,7 @@ a:not([href]):not([tabindex]) {
 
 /* line 105, /Users/Nicolas/code/nicolasesnis/yser-landing-page/app/assets/stylesheets/mate-template/scss/_main.scss */
 a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
-  color: #61D2B4;
+  color: rgb(243,206,85);
 }
 
 /* ==========================================================================
@@ -33218,7 +33218,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 }
 /* line 126, /Users/Nicolas/code/nicolasesnis/yser-landing-page/app/assets/stylesheets/mate-template/scss/_main.scss */
 .section-header .section-title span {
-  color: #61D2B4;
+  color: rgb(243,206,85);
 }
 /* line 130, /Users/Nicolas/code/nicolasesnis/yser-landing-page/app/assets/stylesheets/mate-template/scss/_main.scss */
 .section-header .section-subtitle {
@@ -33232,7 +33232,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   margin: auto;
   width: 70px;
   position: relative;
-  border-top: 2px solid #61D2B4;
+  border-top: 2px solid rgb(243,206,85);
   margin-top: 15px;
 }
 
@@ -33263,8 +33263,8 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 
 /* line 167, /Users/Nicolas/code/nicolasesnis/yser-landing-page/app/assets/stylesheets/mate-template/scss/_main.scss */
 .btn-common {
-  border: 1px solid #61D2B4;
-  background: #61D2B4;
+  border: 1px solid rgb(243,206,85);
+  background: rgb(243,206,85);
   position: relative;
   color: #fff;
   z-index: 1;
@@ -33291,7 +33291,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 .btn-border:hover {
   border: 2px solid #fff;
   color: #fff;
-  background-color: #61D2B4;
+  background-color: rgb(243,206,85);
 }
 
 /* line 194, /Users/Nicolas/code/nicolasesnis/yser-landing-page/app/assets/stylesheets/mate-template/scss/_main.scss */
@@ -33469,7 +33469,7 @@ button:focus {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background-color: #61D2B4;
+  background-color: rgb(243,206,85);
   opacity: 0.6;
   position: absolute;
   top: 0;
@@ -33523,7 +33523,7 @@ button:focus {
   font-size: 14px;
   text-align: center;
   border-radius: 4px;
-  background-color: #61D2B4;
+  background-color: rgb(243,206,85);
   -webkit-transition: all 0.2s linear;
   transition: all 0.2s linear;
 }
@@ -33546,7 +33546,7 @@ button:focus {
   height: 100%;
   top: 0px;
   left: 0px;
-  background: #61D2B4;
+  background: rgb(243,206,85);
   opacity: 0.9;
 }
 /* line 387, /Users/Nicolas/code/nicolasesnis/yser-landing-page/app/assets/stylesheets/mate-template/scss/_main.scss */
@@ -33586,7 +33586,7 @@ button:focus {
 }
 /* line 413, /Users/Nicolas/code/nicolasesnis/yser-landing-page/app/assets/stylesheets/mate-template/scss/_main.scss */
 #hero-area .banner_bottom_btn i:hover {
-  color: #61D2B4;
+  color: rgb(243,206,85);
 }
 
 /* ==========================================================================
@@ -33626,7 +33626,7 @@ button:focus {
 }
 /* line 447, /Users/Nicolas/code/nicolasesnis/yser-landing-page/app/assets/stylesheets/mate-template/scss/_main.scss */
 .top-nav-collapse .navbar-nav .nav-link:hover {
-  color: #61D2B4 !important;
+  color: rgb(243,206,85) !important;
 }
 /* line 451, /Users/Nicolas/code/nicolasesnis/yser-landing-page/app/assets/stylesheets/mate-template/scss/_main.scss */
 .top-nav-collapse .navbar-nav .nav-link.active {
@@ -33655,13 +33655,13 @@ button:focus {
 .navbar-expand-lg .navbar-nav li a:hover,
 .navbar-expand-lg .navbar-nav li .active > a,
 .navbar-expand-lg .navbar-nav li a:focus {
-  color: #61D2B4;
+  color: rgb(243,206,85);
 }
 
 /* line 475, /Users/Nicolas/code/nicolasesnis/yser-landing-page/app/assets/stylesheets/mate-template/scss/_main.scss */
 .navbar .nav-link.active {
   color: #fff !important;
-  background: #61D2B4;
+  background: rgb(243,206,85);
 }
 
 /* line 479, /Users/Nicolas/code/nicolasesnis/yser-landing-page/app/assets/stylesheets/mate-template/scss/_main.scss */
@@ -33671,12 +33671,12 @@ button:focus {
 
 /* line 482, /Users/Nicolas/code/nicolasesnis/yser-landing-page/app/assets/stylesheets/mate-template/scss/_main.scss */
 .slicknav_btn {
-  border-color: #61D2B4;
+  border-color: rgb(243,206,85);
 }
 
 /* line 485, /Users/Nicolas/code/nicolasesnis/yser-landing-page/app/assets/stylesheets/mate-template/scss/_main.scss */
 .slicknav_menu .slicknav_icon-bar {
-  background: #61D2B4;
+  background: rgb(243,206,85);
 }
 
 /* only small tablets */
@@ -33730,20 +33730,20 @@ button:focus {
 
   /* line 524, /Users/Nicolas/code/nicolasesnis/yser-landing-page/app/assets/stylesheets/mate-template/scss/_main.scss */
   .slicknav_nav .active a {
-    background: #61D2B4;
+    background: rgb(243,206,85);
     color: #fff;
   }
 
   /* line 528, /Users/Nicolas/code/nicolasesnis/yser-landing-page/app/assets/stylesheets/mate-template/scss/_main.scss */
   .slicknav_nav a:hover, .slicknav_nav .active {
-    color: #61D2B4;
+    color: rgb(243,206,85);
     background: #f8f9fa;
   }
 
   /* line 532, /Users/Nicolas/code/nicolasesnis/yser-landing-page/app/assets/stylesheets/mate-template/scss/_main.scss */
   .slicknav_nav .dropdown li a.active {
     background: #f8f9fa;
-    color: #61D2B4;
+    color: rgb(243,206,85);
   }
 }
 /* ==========================================================================
@@ -33773,7 +33773,7 @@ button:focus {
 .item-boxes .icon i {
   font-size: 26px;
   line-height: 60px;
-  color: #61D2B4;
+  color: rgb(243,206,85);
 }
 /* line 565, /Users/Nicolas/code/nicolasesnis/yser-landing-page/app/assets/stylesheets/mate-template/scss/_main.scss */
 .item-boxes h4 {
@@ -33784,7 +33784,7 @@ button:focus {
 
 /* line 571, /Users/Nicolas/code/nicolasesnis/yser-landing-page/app/assets/stylesheets/mate-template/scss/_main.scss */
 .item-boxes:hover .icon {
-  background: #61D2B4;
+  background: rgb(243,206,85);
 }
 
 /* line 574, /Users/Nicolas/code/nicolasesnis/yser-landing-page/app/assets/stylesheets/mate-template/scss/_main.scss */
@@ -33797,7 +33797,8 @@ button:focus {
   ========================================================================== */
 /* line 581, /Users/Nicolas/code/nicolasesnis/yser-landing-page/app/assets/stylesheets/mate-template/scss/_main.scss */
 #features {
-  background-image: url('https://fr.cdn.v5.futura-sciences.com/buildsv6/images/wide1920/b/a/f/baf9ee1e76_89352_def-datacenter.jpg');
+  /*background-image: url('https://fr.cdn.v5.futura-sciences.com/buildsv6/images/wide1920/b/a/f/baf9ee1e76_89352_def-datacenter.jpg');*/
+  background-color: rgb(205,79,73);
   background-size: cover;
   color: #fff;
   overflow: hidden;
@@ -33827,7 +33828,7 @@ button:focus {
 }
 /* line 604, /Users/Nicolas/code/nicolasesnis/yser-landing-page/app/assets/stylesheets/mate-template/scss/_main.scss */
 #features .box-item .icon {
-  border: 1px solid #61D2B4;
+  border: 1px solid rgb(243,206,85);
   text-align: center;
   float: left;
   -webkit-transition: all 0.2s linear;
@@ -33835,7 +33836,7 @@ button:focus {
 }
 /* line 612, /Users/Nicolas/code/nicolasesnis/yser-landing-page/app/assets/stylesheets/mate-template/scss/_main.scss */
 #features .box-item .icon i {
-  color: #61D2B4;
+  color: rgb(243,206,85);
   font-size: 24px;
   line-height: 60px;
   -webkit-transition: all 0.2s linear;
@@ -33847,7 +33848,7 @@ button:focus {
 }
 /* line 624, /Users/Nicolas/code/nicolasesnis/yser-landing-page/app/assets/stylesheets/mate-template/scss/_main.scss */
 #features .box-item .text h4 {
-  color: #61D2B4;
+  color: rgb(243,206,85);
   font-weight: 700;
   font-size: 16px;
   text-transform: uppercase;
@@ -33860,7 +33861,7 @@ button:focus {
 }
 /* line 637, /Users/Nicolas/code/nicolasesnis/yser-landing-page/app/assets/stylesheets/mate-template/scss/_main.scss */
 #features .box-item:hover .icon {
-  background: #61D2B4;
+  background: rgb(243,206,85);
 }
 /* line 639, /Users/Nicolas/code/nicolasesnis/yser-landing-page/app/assets/stylesheets/mate-template/scss/_main.scss */
 #features .box-item:hover .icon i {
@@ -33877,7 +33878,7 @@ button:focus {
    ========================================================================== */
 /* line 656, /Users/Nicolas/code/nicolasesnis/yser-landing-page/app/assets/stylesheets/mate-template/scss/_main.scss */
 .video-promo {
-  background: #61D2B4;
+  background: rgb(243,206,85);
   color: #fff;
   overflow: hidden;
   position: relative;
@@ -33922,7 +33923,7 @@ button:focus {
   height: 100%;
   top: 0px;
   left: 0px;
-  background: #61D2B4;
+  background: rgb(243,206,85);
   opacity: 0.9;
   filter: alpha(opacity=90);
 }
@@ -33951,8 +33952,8 @@ button:focus {
 }
 /* line 721, /Users/Nicolas/code/nicolasesnis/yser-landing-page/app/assets/stylesheets/mate-template/scss/_main.scss */
 .controls .active {
-  color: #61D2B4 !important;
-  border-color: #61D2B4;
+  color: rgb(243,206,85) !important;
+  border-color: rgb(243,206,85);
   background: transparent;
 }
 /* line 726, /Users/Nicolas/code/nicolasesnis/yser-landing-page/app/assets/stylesheets/mate-template/scss/_main.scss */
@@ -34009,7 +34010,7 @@ button:focus {
   height: 48px;
   width: 48px;
   line-height: 48px;
-  color: #61D2B4;
+  color: rgb(243,206,85);
   left: 50%;
   margin-left: -24px;
   margin-top: -24px;
@@ -34023,12 +34024,12 @@ button:focus {
   font-size: 20px;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
-  border: 1px solid #61D2B4;
+  border: 1px solid rgb(243,206,85);
   border-radius: 50%;
 }
 /* line 785, /Users/Nicolas/code/nicolasesnis/yser-landing-page/app/assets/stylesheets/mate-template/scss/_main.scss */
 .overlay .item-icon:hover {
-  background: #61D2B4;
+  background: rgb(243,206,85);
   color: #fff;
 }
 
@@ -34073,7 +34074,7 @@ button:focus {
   display: inline-block;
   font-size: 48px;
   font-weight: 400;
-  color: #61D2B4;
+  color: rgb(243,206,85);
   margin-bottom: 20px;
 }
 /* line 830, /Users/Nicolas/code/nicolasesnis/yser-landing-page/app/assets/stylesheets/mate-template/scss/_main.scss */
@@ -34171,7 +34172,7 @@ button:focus {
 
 /* line 913, /Users/Nicolas/code/nicolasesnis/yser-landing-page/app/assets/stylesheets/mate-template/scss/_main.scss */
 .owl-theme .owl-controls .owl-page span {
-  background: #61D2B4;
+  background: rgb(243,206,85);
 }
 
 /* line 916, /Users/Nicolas/code/nicolasesnis/yser-landing-page/app/assets/stylesheets/mate-template/scss/_main.scss */
@@ -34195,7 +34196,7 @@ button:focus {
   -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
   border-radius: 0px;
-  background: #61D2B4;
+  background: rgb(243,206,85);
   overflow: hidden;
 }
 /* line 935, /Users/Nicolas/code/nicolasesnis/yser-landing-page/app/assets/stylesheets/mate-template/scss/_main.scss */
@@ -34239,7 +34240,7 @@ button:focus {
   text-align: center;
   width: 34px;
   margin: 2px;
-  color: #61D2B4;
+  color: rgb(243,206,85);
   font-size: 14px;
   background: #fff;
   border-radius: 50px;
@@ -34311,7 +34312,7 @@ button:focus {
 }
 /* line 1030, /Users/Nicolas/code/nicolasesnis/yser-landing-page/app/assets/stylesheets/mate-template/scss/_main.scss */
 #blog .blog-item-text h3 a:hover {
-  color: #61D2B4;
+  color: rgb(243,206,85);
 }
 /* line 1035, /Users/Nicolas/code/nicolasesnis/yser-landing-page/app/assets/stylesheets/mate-template/scss/_main.scss */
 #blog .blog-item-text p {
@@ -34338,7 +34339,7 @@ button:focus {
 }
 /* line 1050, /Users/Nicolas/code/nicolasesnis/yser-landing-page/app/assets/stylesheets/mate-template/scss/_main.scss */
 .meta-tags span a:hover {
-  color: #61D2B4;
+  color: rgb(243,206,85);
 }
 
 /* ==========================================================================
@@ -34351,7 +34352,7 @@ button:focus {
 }
 /* line 1067, /Users/Nicolas/code/nicolasesnis/yser-landing-page/app/assets/stylesheets/mate-template/scss/_main.scss */
 .contact-us p span {
-  color: #61D2B4;
+  color: rgb(243,206,85);
   padding-left: 10px;
 }
 
@@ -34381,7 +34382,7 @@ button:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
   color: #fff;
-  border-color: #61D2B4;
+  border-color: rgb(243,206,85);
   background: transparent;
   outline: none;
 }
@@ -34429,7 +34430,7 @@ footer {
 }
 /* line 1129, /Users/Nicolas/code/nicolasesnis/yser-landing-page/app/assets/stylesheets/mate-template/scss/_main.scss */
 .footer-links li a:hover {
-  color: #61D2B4;
+  color: rgb(243,206,85);
 }
 
 /* line 1135, /Users/Nicolas/code/nicolasesnis/yser-landing-page/app/assets/stylesheets/mate-template/scss/_main.scss */
@@ -34447,7 +34448,7 @@ footer {
 }
 /* line 1142, /Users/Nicolas/code/nicolasesnis/yser-landing-page/app/assets/stylesheets/mate-template/scss/_main.scss */
 .copyright p a:hover {
-  color: #61D2B4;
+  color: rgb(243,206,85);
 }
 
 /* only small desktops */
