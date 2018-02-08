@@ -34133,7 +34133,7 @@ button:focus {
  ========================================================================== */
 /* line 879, /Users/Nicolas/code/nicolasesnis/yser-landing-page/app/assets/stylesheets/mate-template/scss/_main.scss */
 #testimonial {
-  background: url(../img/testimonial-bg.jpg) fixed no-repeat;
+  background-color:rgb(51,51,51);
   background-size: cover;
   color: #fff;
   overflow: hidden;
@@ -34142,32 +34142,32 @@ button:focus {
 
 /* line 886, /Users/Nicolas/code/nicolasesnis/yser-landing-page/app/assets/stylesheets/mate-template/scss/_main.scss */
 .testimonial-item {
-  text-align: center;
+  /*text-align: center;*/
 }
 /* line 888, /Users/Nicolas/code/nicolasesnis/yser-landing-page/app/assets/stylesheets/mate-template/scss/_main.scss */
 .testimonial-item img {
-  width: 80px;
+  /*width: 80px;
   border: 3px solid #fff;
   height: 80px;
-  border-radius: 50%;
+  border-radius: 50%;*/
 }
 /* line 895, /Users/Nicolas/code/nicolasesnis/yser-landing-page/app/assets/stylesheets/mate-template/scss/_main.scss */
 .testimonial-item .testimonial-text h3 {
-  font-size: 15px;
-  font-weight: 700;
+  /*font-size: 15px;
+  font-weight: 700;*/
 }
 /* line 899, /Users/Nicolas/code/nicolasesnis/yser-landing-page/app/assets/stylesheets/mate-template/scss/_main.scss */
 .testimonial-item .testimonial-text span {
-  font-size: 14px;
-  color: #999;
+  /*font-size: 14px;
+  color: #999;*/
 }
 /* line 903, /Users/Nicolas/code/nicolasesnis/yser-landing-page/app/assets/stylesheets/mate-template/scss/_main.scss */
 .testimonial-item .testimonial-text p {
-  font-size: 14px;
+  /*font-size: 14px;
   font-weight: 400;
   padding: 36px 10px 30px 10px;
   margin: 0;
-  line-height: 30px;
+  line-height: 30px;*/
 }
 
 /* line 913, /Users/Nicolas/code/nicolasesnis/yser-landing-page/app/assets/stylesheets/mate-template/scss/_main.scss */
