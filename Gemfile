@@ -77,3 +77,4 @@ gem 'waypoints-rails'
 gem 'wow-rails'
 
 
+
