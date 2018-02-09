@@ -34024,12 +34024,10 @@ button:focus {
   font-size: 20px;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
-  border: 1px solid rgb(243,206,85);
-  border-radius: 50%;
+
 }
 /* line 786, /Users/Nicolas/code/nicolasesnis/yser-landing-page/app/assets/stylesheets/mate-template/scss/_main.scss */
 .overlay .item-icon:hover {
-  background: rgb(243,206,85);
   color: #fff;
 }
 
