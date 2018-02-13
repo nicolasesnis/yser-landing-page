@@ -1,8 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113984386-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-113984386-1');
+    </script>
     <title>Yser, l'assistant RGPD</title>
     <%= csrf_meta_tags %>
+    <%= favicon_link_tag 'http://res.cloudinary.com/dgmpokhth/image/upload/v1518446303/icon_yser_hzyhpy.png' %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
