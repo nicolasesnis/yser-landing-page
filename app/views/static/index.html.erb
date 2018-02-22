@@ -1,5 +1,7 @@
 <head>
-  <meta name="description" content="Yser est un Cloud Storage hautement sécurisé, privé et français dédié au partage de données sensibles entre les entreprises et les citoyens européens." />
+  <% content_for :head do %>
+    <meta name="description" content="Yser est un Cloud Storage hautement sécurisé, privé et français dédié au partage de données sensibles entre les entreprises et les citoyens européens." />
+  <% end %>
 </head>
 
 <div class="banner" style="background-image: linear-gradient(rgba(0,36,61,0.1), rgba(0,101,168,0.6), rgba(0,36,61,0.1)), url('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/GfRLKaE/videoblocks-blue-business-background-2_h3cvzluwb_thumbnail-full01.png');">
@@ -20,7 +22,9 @@
       <div class="col-md-6" style="margin:auto;width: 50%">
         <h1>Redonner aux individus le contrôle de leurs données</h1>
         <h2><span style="color:rgba(243,205,85,1)"> yser</span>, la plateforme qui permet aux particuliers de voir et de décider comment leurs données personnelles sont utilisées par les entreprises</h2>
-        <a style="margin-top: 10%; background-color: rgb(204,79,74);" href="/main" class="btn btn-danger" >Découvrir</a>
+        <%= link_to main_path do %>
+          <button type="button" style="margin-top: 10%; background-color: rgb(204,79,74);" class="btn btn-danger" >Découvrir</button>
+        <% end %>
       </div>
     </div>
 
