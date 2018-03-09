@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root "static#index"
+  root "static#main"
   get '/main', to: "static#main", as: :main
   get '/.well-known/acme-challenge/q-0NaguePCP8_318V1lPxWIl1IcgGAKIkhAD_T5VdBw', to: "pages#letsencrypt"
 
