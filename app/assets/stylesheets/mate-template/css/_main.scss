@@ -16,6 +16,7 @@
     -2.3 SOCIAL ICON
     -2.4 PRE LOADER
     -2.5 SCROLL TO UP
+    -2.6 NAVBAR
   3. HERO AREA
   4. NAVBAR
   5. SERVICES SECTION
@@ -397,6 +398,139 @@ button:focus {
   -moz-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
+}
+
+
+/* ==========================================================================
+   -2.6 Navbar Style
+   ========================================================================== */
+.navbar-brand {
+  position: relative;
+  padding: 0px;
+}
+
+.top-nav-collapse {
+  background: #fff;
+  z-index: 999999;
+  top: 0px !important;
+  padding: 0;
+  box-shadow: 0px 3px 6px 3px rgba(0, 0, 0, 0.06);
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  background: #fff !important;
+}
+
+.top-nav-collapse .navbar-brand {
+  top: 0px;
+}
+
+.top-nav-collapse .navbar-nav .nav-link {
+  color: #333 !important;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+.top-nav-collapse .navbar-nav .nav-link:hover {
+  color: rgba(243,205,85,1) !important;
+}
+
+.top-nav-collapse .navbar-nav .nav-link.active {
+  color: #fff !important;
+}
+
+.indigo {
+  background-color: rgba(234,121,110,75%)
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  color: black;
+  padding: 0 22px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  line-height: 40px;
+  border-radius: 30px;
+  background: transparent;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-expand-lg .navbar-nav li a:hover,
+.navbar-expand-lg .navbar-nav li .active > a,
+.navbar-expand-lg .navbar-nav li a:focus {
+  color: rgba(243,205,85,1);
+}
+
+.navbar .nav-link.active {
+  color: black !important;
+  background: rgba(243,205,85,1);
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.slicknav_btn {
+  border-color: rgba(243,205,85,1);
+}
+
+.slicknav_menu .slicknav_icon-bar {
+  background: rgba(243,205,85,1);
+}
+
+/* only small tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+  #nav-main li a.nav-link {
+    padding-top: 18px;
+  }
+}
+
+.navbar-toggler {
+  display: none;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+.slicknav_menu {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-header {
+    width: 100%;
+  }
+  .navbar-brand {
+    position: absolute;
+    padding: 15px;
+    top: 0;
+  }
+  .navbar-brand img {
+    width: 70%;
+  }
+  #mobile-menu {
+    display: none;
+  }
+  .slicknav_menu {
+    display: block;
+  }
+  .slicknav_nav .active a {
+    background: rgba(243,205,85,1);
+    color: #fff;
+  }
+  .slicknav_nav a:hover, .slicknav_nav .active {
+    color: rgba(243,205,85,1);
+    background: #f8f9fa;
+  }
+  .slicknav_nav .dropdown li a.active {
+    background: #f8f9fa;
+    color: rgba(243,205,85,1);
+  }
 }
 
 /* ==========================================================================
