@@ -1,0 +1,1594 @@
+/*
+* Mate - Bootstrap 4 Template
+* Build Date: December 2017
+* Last updated: December 2017
+* Version: 1.0
+* Author: UIdeck
+* Copyright (C) 2018 UIdeck
+*/
+/* ------------------------------------- */
+/* TABLE OF CONTENTS
+/* -------------------------------------
+  1. IMPORT GOOGLE FONTS
+  2. GENERAL
+    -2.1 SECTION TITLE
+    -2.2 BUTTONS
+    -2.3 SOCIAL ICON
+    -2.4 PRE LOADER
+    -2.5 SCROLL TO UP
+    -2.6 NAVBAR
+  3. HERO AREA
+  4. ACTU
+  5. USER FEATURES
+  6. FONCTIONNEMENT
+  7. MAIL LIST
+  8. RGPD
+  9. BUSINESS INTRO
+  10. LOGOS
+  11. DPO FEATURES
+  12. DPO INTERFACE
+  13. CLOUD STORAGE
+  14. RGPD BUSINESS
+  15. JOIN US
+  16. COUNTER
+  17. TEAM
+  18. CONTACT
+  19. FOOTER
+  20. PROP COM
+    -15.1 COMING SOON PAGE
+  ------------------------------------- */
+/* ==========================================================================
+   1. IMPORT GOOGLE FONTS
+   ========================================================================== */
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+/* ==========================================================================
+   2. GENERAL
+   ========================================================================== */
+body {
+  font-family: 'Raleway', sans-serif;
+  color: #333;
+  font-size: 14px;
+  font-weight: 400;
+  background: #fff;
+  overflow-x: hidden;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+p {
+  font-size: 14px;
+  line-height: 26px;
+}
+
+a:hover, a:focus {
+  color: rgba(243,205,85,1);
+}
+
+a {
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  /*list-style: none;*/
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+a:not([href]):not([tabindex]) {
+  color: #fff;
+}
+
+a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
+  color: rgba(243,205,85,1);
+}
+
+/* ==========================================================================
+   2.1 Section Title
+   ========================================================================== */
+.section {
+  padding: 80px 0;
+}
+
+.section-header {
+  color: #fff;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.section-header .section-title {
+  font-size: 42px;
+  margin-top: 0;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #333;
+  position: relative;
+}
+
+.section-header .section-title span {
+  color: rgba(243,205,85,1);
+}
+
+.section-header .section-subtitle {
+  margin-top: 15px;
+  color: #333;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.section-header .lines {
+  margin: auto;
+  width: 70px;
+  position: relative;
+  border-top: 2px solid rgba(243,205,85,1);
+  margin-top: 15px;
+}
+
+/* ==========================================================================
+   2.2 Buttons
+   ========================================================================== */
+.btn {
+  font-size: 14px;
+  padding: 11px 40px;
+  border-radius: 0px;
+  font-weight: 400;
+  color: #fff;
+  text-transform: uppercase;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  display: inline-block;
+}
+
+.btn:focus,
+.btn:active {
+  box-shadow: none;
+  outline: none;
+  color: #fff;
+}
+
+.btn-common {
+  border: 1px solid rgba(243,205,85,1);
+  background: rgba(243,205,85,1);
+  position: relative;
+  color: black;
+  z-index: 1;
+  border-radius: 30px;
+}
+
+.btn-common:hover {
+  color: #fff;
+  background: #33b391;
+  border-color: #33b391;
+  transition: all .50s ease-in-out;
+  -moz-transition: all .50s ease-in-out;
+  -webkit-transition: all .50s ease-in-out;
+}
+
+.btn-border {
+  color: #fff;
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 4px;
+}
+
+.btn-border:hover {
+  border: 2px solid #fff;
+  color: #fff;
+  background-color: rgba(243,205,85,1);
+}
+
+.btn-lg {
+  padding: 14px 33px;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.btn-rm {
+  padding: 7px 0px;
+  color: #999;
+  text-transform: capitalize;
+}
+
+.btn-rm i {
+  vertical-align: middle;
+}
+
+button:focus {
+  outline: none !important;
+}
+
+.clear {
+  clear: both;
+}
+
+/* ==========================================================================
+   2.3 Social Iocns
+   ========================================================================== */
+.social-icons {
+  margin-top: 40px;
+}
+
+.social-icons ul {
+  margin: 0;
+  padding: 0;
+  /*list-style: none;*/
+}
+
+.social-icons ul li {
+  display: inline;
+}
+
+.social-icons ul li a {
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 15px;
+  border-radius: 50%;
+  line-height: 40px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  background: #ddd;
+  font-size: 16px;
+}
+
+.social-icons ul li a:hover {
+  color: #fff;
+}
+
+.facebook a {
+  color: #4867AA;
+}
+
+.facebook a:hover {
+  background: #4867AA;
+}
+
+.twitter a {
+  color: #1DA1F2;
+}
+
+.twitter a:hover {
+  background: #1DA1F2;
+}
+
+.google-plus a {
+  color: #DD4D42;
+}
+
+.google-plus a:hover {
+  background: #DD4D42;
+}
+
+.youtube a {
+  color: #DF2926;
+}
+
+.youtube a:hover {
+  background: #DF2926;
+}
+
+.linkedin a {
+  color: #007BB6;
+}
+
+.linkedin a:hover {
+  background: #007BB6;
+}
+
+.pinterest a {
+  color: #BD081C;
+}
+
+.pinterest a:hover {
+  background: #BD081C;
+}
+
+.dribbble a {
+  color: #EA4C89;
+}
+
+.dribbble a:hover {
+  background: #EA4C89;
+}
+
+.behance a {
+  color: #0B7CFF;
+}
+
+.behance a:hover {
+  background: #0B7CFF;
+}
+
+/* ==========================================================================
+	 2.4  Pre Loader
+	 ========================================================================== */
+#loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #333;
+  z-index: 9999999999;
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  top: 45%;
+  position: relative;
+  margin: 0px auto;
+}
+
+.double-bounce1, .double-bounce2 {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: rgba(243,205,85,1);
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+  animation: sk-bounce 2.0s infinite ease-in-out;
+}
+
+.double-bounce2 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+@-webkit-keyframes sk-bounce {
+  0%, 100% {
+    -webkit-transform: scale(0);
+  }
+  50% {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes sk-bounce {
+  0%, 100% {
+    transform: scale(0);
+    -webkit-transform: scale(0);
+  }
+  50% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+}
+
+/* ==========================================================================
+  -2.5 Scroll To Up
+   ========================================================================== */
+.back-to-top {
+  display: none;
+  position: fixed;
+  bottom: 18px;
+  right: 15px;
+}
+
+.back-to-top i {
+  display: block;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  border-radius: 4px;
+  background-color: rgba(243,205,85,1);
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+
+/* ==========================================================================
+   -2.6 Navbar Style
+   ========================================================================== */
+.navbar-brand {
+  position: relative;
+  padding: 0px;
+}
+
+.top-nav-collapse {
+  background: #fff;
+  z-index: 999999;
+  top: 0px !important;
+  padding: 0;
+  box-shadow: 0px 3px 6px 3px rgba(0, 0, 0, 0.06);
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  background: #fff !important;
+}
+
+.top-nav-collapse .navbar-brand {
+  top: 0px;
+}
+
+.top-nav-collapse .navbar-nav .nav-link {
+  color: #333 !important;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+.top-nav-collapse .navbar-nav .nav-link:hover {
+  color: rgba(243,205,85,1) !important;
+}
+
+.top-nav-collapse .navbar-nav .nav-link.active {
+  color: #fff !important;
+}
+
+.indigo {
+  background-color: rgba(234,121,110,75%)
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  color: black;
+  padding: 0 22px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  line-height: 40px;
+  border-radius: 30px;
+  background: transparent;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-expand-lg .navbar-nav li a:hover,
+.navbar-expand-lg .navbar-nav li .active > a,
+.navbar-expand-lg .navbar-nav li a:focus {
+  color: rgba(243,205,85,1);
+}
+
+.navbar .nav-link.active {
+  color: black !important;
+  background: rgba(243,205,85,1);
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.slicknav_btn {
+  border-color: rgba(243,205,85,1);
+}
+
+.slicknav_menu .slicknav_icon-bar {
+  background: rgba(243,205,85,1);
+}
+
+/* only small tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+  #nav-main li a.nav-link {
+    padding-top: 18px;
+  }
+}
+
+.navbar-toggler {
+  display: none;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+.slicknav_menu {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-header {
+    width: 100%;
+  }
+  .navbar-brand {
+    position: absolute;
+    padding: 15px;
+    top: 0;
+  }
+  .navbar-brand img {
+    width: 70%;
+  }
+  #mobile-menu {
+    display: none;
+  }
+  .slicknav_menu {
+    display: block;
+  }
+  .slicknav_nav .active a {
+    background: rgba(243,205,85,1);
+    color: #fff;
+  }
+  .slicknav_nav a:hover, .slicknav_nav .active {
+    color: rgba(243,205,85,1);
+    background: #f8f9fa;
+  }
+  .slicknav_nav .dropdown li a.active {
+    background: #f8f9fa;
+    color: rgba(243,205,85,1);
+  }
+}
+
+/* ==========================================================================
+   3. Hero Area
+   ========================================================================== */
+#hero-area {
+  /*background: url("http://res.cloudinary.com/dgmpokhth/image/upload/v1525419426/videoblocks-blue-business-background-2_h3cvzluwb_thumbnail-full01_wqi9hw.jpg") fixed no-repeat;*/
+  /*background: url("http://res.cloudinary.com/dgmpokhth/image/upload/v1525425531/lighter_sloe6g.jpg") fixed no-repeat;*/
+  /*background-size: cover;*/
+  /*background-image: linear-gradient(rgba(234,121,110,100%), rgba(234,121,110,100%));*/
+  /*background-color: #0C3644;*/
+  background-image: linear-gradient(226.08deg,rgb(80,92,169),rgb(104,96,252),rgb(80,138,208),rgb(112,221,217));
+  position:relative;
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+}
+
+#particles-js canvas{
+  position:absolute;
+  top:0;
+  left:0;
+
+}
+
+#hero-area .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  background: rgba(243,205,85,1);
+  opacity: 0.9;
+}
+
+#hero-area .contents {
+  padding: 150px 0 70px;
+}
+
+#hero-area .contents h1 {
+  color: #fff;
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+#hero-area .contents p {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.5px;
+}
+
+#hero-area .contents .btn {
+  margin: 25px 25px 0px 0px;
+  text-transform: uppercase;
+}
+
+#hero-area .banner_bottom_btn {
+  margin-top: 40px;
+}
+
+#hero-area .banner_bottom_btn i {
+  color: #fff;
+  font-size: 48px;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+#hero-area .banner_bottom_btn i:hover {
+  color: rgba(243,205,85,1);
+}
+
+
+/*counter*/
+.mu-event-counter-area {
+  display: inline;
+  float: left;
+  margin-top: 20px;
+  width: 100%;
+}
+
+#mu-event-counter{
+  display: inline;
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+
+.mu-event-counter-block {
+  border: 2px solid #fff;
+  border-radius: 50%;
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  font-size: 11px;
+  color: #fff;
+  margin: 0 20px;
+  font-weight: 150;
+}
+
+.mu-event-counter-block span {
+  display: block;
+  font-size: 25px;
+  font-weight: 350;
+  padding-top: 20px;
+  line-height: 40px;
+}
+
+
+/*--------------------*/
+/* RESPONSIVE STYLE */
+/*--------------------*/
+
+@media (max-width: 991px) {
+  .mu-event-counter-block {
+    height: 65px;
+    width: 65px;
+    font-size: 12px;
+    margin: 0 10px;
+  }
+
+  .mu-event-counter-block span {
+    font-size: 14px;
+    padding-top: 19px;
+    line-height: 10px;
+  }
+}
+
+@media (max-width: 640px){
+  .mu-event-counter-block {
+    height: 50;
+    width: 50;
+    font-size: 9px;
+  }
+
+  .mu-event-counter-block span {
+    font-size: 22px;
+    padding-top: 15px;
+    line-height: 25px;
+  }
+}
+
+@media (max-width: 480px) {
+  .mu-event-counter-area {
+    margin-top: 20px;
+  }
+
+  .mu-event-counter-block span {
+    font-size: 18px;
+    padding-top: 16px;
+    line-height: 20px;
+  }
+
+  .mu-event-counter-block {
+    height: 75px;
+    width: 75px;
+    font-size: 12px;
+    margin: 0 5px;
+  }
+}
+
+@media (max-width: 360px) {
+  .mu-event-counter-block {
+    height: 56px;
+    width: 56px;
+    font-size: 10px;
+  }
+
+  .mu-event-counter-block span {
+    font-size: 16px;
+    padding-top: 10px;
+    line-height: 16px;
+  }
+}
+
+/*end counter*/
+
+/* ==========================================================================
+  4. Actu
+   ========================================================================== */
+#actu .actu-item-wrapper {
+  background: #fff;
+  border-radius: 0px;
+  -webkit-transition: transform 0.2s linear, -webkit-box-shadow 0.2s linear;
+  -moz-transition: transform 0.2s linear, -moz-box-shadow 0.2s linear;
+  transition: transform 0.2s linear, box-shadow 0.2s linear;
+}
+
+#actu .actu-item-wrapper:hover .actu-item-img:before {
+  opacity: 1;
+  height: 100%;
+  width: 100%;
+}
+
+#actu .actu-item-img {
+  position: relative;
+}
+
+#actu .actu-item-img img {
+  width: 100%;
+}
+
+#actu .actu-item-text {
+  padding: 20px 0;
+}
+
+#actu .actu-item-text h3 {
+  line-height: 26px;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+#actu .actu-item-text h3 a {
+  color: #333;
+}
+
+#actu .actu-item-text h3 a:hover {
+  color: rgba(243,205,85,1);
+}
+
+#actu .actu-item-text p {
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+
+.meta-tags {
+  margin-bottom: 20px;
+}
+
+.meta-tags span {
+  color: #999;
+  margin-right: 10px;
+}
+
+.meta-tags span i {
+  margin-right: 5px;
+}
+
+.meta-tags span a {
+  color: #999;
+}
+
+.meta-tags span a:hover {
+  color: rgba(243,205,85,1);
+}
+
+/* ==========================================================================
+  5. user-features section
+   ========================================================================== */
+#user-features{
+  background-color: rgb(236,122,111);
+  color:white;
+}
+
+#user-features .section-title {
+  color: white;
+}
+
+#user-features .section-subtitle {
+  color: white;
+}
+
+.item-boxes {
+  text-align: center;
+  padding: 0px 15px;
+  margin-bottom: 15px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.item-boxes .icon {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  border: 1px solid #f1f1f1;
+  display: inline-block;
+  border-radius: 30px;
+  margin-bottom: 30px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.item-boxes .icon i {
+  font-size: 26px;
+  line-height: 60px;
+  color: rgba(243,205,85,1);
+}
+
+.item-boxes h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.item-boxes:hover .icon {
+  background: rgba(243,205,85,1);
+}
+
+.item-boxes:hover .icon i {
+  color: #fff;
+}
+
+/* ==========================================================================
+  6. Fonctionnement Section Style
+   ========================================================================== */
+#fonctionnement {
+  background: url("https://pixteller.com/assets/storage/designs_images/2017-08-31/06/backgrounds-business-background-image-1-59a825761419d.png") fixed no-repeat;
+  background-size: cover;
+  color: black;
+  overflow: hidden;
+  position: relative;
+}
+
+#fonctionnement .section-title {
+  padding-top:30px;
+  color:black;
+}
+
+#fonctionnement .section-subtitle {
+  color: black;
+}
+
+#fonctionnement .icon {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+#fonctionnement .box-item {
+  padding: 15px 5px;
+}
+
+#fonctionnement .box-item .icon {
+  border: 1px solid rgba(243,205,85,1);
+  text-align: center;
+  float: left;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+#fonctionnement .box-item .icon h3{
+  padding-top:4px;
+}
+
+#fonctionnement .box-item .icon i {
+  color: rgba(243,205,85,1);
+  font-size: 24px;
+  line-height: 60px;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+#fonctionnement .box-item .text {
+  padding-left: 80px;
+}
+
+#fonctionnement .box-item .text h4 {
+  color: rgba(243,205,85,1);
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 22px;
+}
+
+#fonctionnement .box-item .text p {
+  font-size: 14px;
+  line-height: 26px;
+}
+
+#fonctionnement .box-item:hover .icon {
+  background: rgba(243,205,85,1);
+}
+
+#fonctionnement .box-item:hover .icon i {
+  color: #ffffff;
+}
+
+#fonctionnement .show-box img {
+  position: absolute;
+  bottom: -120px;
+}
+
+#fonctionnement .platform-screenshot {
+
+}
+#fonctionnement .platform-screenshot img{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 100%;
+}
+
+/* ==========================================================================
+  7. mail-list-subscribe Style
+   ========================================================================== */
+.mail-list-subscribe {
+  background: rgba(243,205,85,1);
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+}
+
+.mail-list-subscribe .mail-list-subscribe-content {
+  color: #fff;
+}
+
+.mail-list-subscribe .mail-list-subscribe-content h2 {
+  color: #fff;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.mail-list-subscribe .mail-list-subscribe-content p {
+  margin-bottom: 30px;
+}
+
+.mail-list-subscribe .mail-list-subscribe-content .video-popup {
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  border: 3px solid #fff;
+  color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 30px;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.mail-list-subscribe .mail-list-subscribe-content .video-popup i {
+  line-height: 72px;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  background: rgba(243,205,85,1);
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+}
+
+/* ==========================================================================
+   8. RGPD Style
+   ========================================================================== */
+
+
+/* ==========================================================================
+  9. Business Intro Section
+   ========================================================================== */
+
+#business-intro {
+  /*background: url("http://res.cloudinary.com/dgmpokhth/image/upload/v1525419426/videoblocks-blue-business-background-2_h3cvzluwb_thumbnail-full01_wqi9hw.jpg") fixed no-repeat;*/
+  height:70vh;
+  background: url("http://res.cloudinary.com/dgmpokhth/image/upload/v1525425531/lighter_sloe6g.jpg") fixed no-repeat;
+}
+
+#business-intro .contents{
+  color: black;
+  margin-top:10%;
+  padding:5%;
+  background-color: rgba(250,250,250,0.5)
+}
+
+/* ==========================================================================
+  10. Logos Section
+   ========================================================================== */
+@media only screen and (min-width: 768px) {
+   #logos {
+        padding: 30px;
+        max-width: 100%;
+    }
+}
+
+#logos-section {
+    background-color: #F9FAFA;
+    text-align: center;
+}
+
+#logos-section .logos {
+    padding: 30px;
+    max-width: 100%;
+}
+
+/* ==========================================================================
+  11. dpo-features section
+   ========================================================================== */
+#dpo-features{
+  background-color: white;
+}
+
+#dpo-features h1 {
+  font-size:30px;
+  color: black;
+}
+
+#dpo-features h4 {
+  font-size:17px;
+}
+
+#dpo-features p {
+  font-size:14px;
+}
+
+#dpo-features .image{
+  padding-bottom: 7%;
+  display: inline-flex;
+  vertical-align: middle;
+}
+
+#dpo-features .image img {
+  width: 120px;
+  height: 120px;
+}
+
+/*#dpo-features .section-subtitle {
+  color: white;
+}*/
+
+/* ==========================================================================
+  12. DPO Interface Section
+   ========================================================================== */
+
+#dpo-interface {
+    max-width: 1400px;
+    margin: auto;
+    overflow: hidden;
+    background-image: url("https://www.cedexis.com/wp-content/uploads/backgroundBehindScreengrabsShorter-1.jpg");
+}
+
+#dpo-interface h2{
+
+}
+
+.dpo-interface-image {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media only screen and (min-width: 1200px) {
+   #dpo-interface .section-header{
+      text-align: left;
+    }
+   .dpo-interface-text {
+        padding-top: 60px;
+    }
+
+    .dpo-interface-image-box {
+      padding-top: 10%;
+      padding-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+   .dpo-interface-text {
+      padding-top: 60px;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+    .dpo-interface-image-box {
+      padding-right: 10%;
+      padding-left: 10%;
+      padding-bottom: 30px;
+    }
+}
+
+/* ==========================================================================
+  13. Cloud Storage Section
+   ========================================================================== */
+
+#cloud-storage {
+    max-width: 1400px;
+    margin: auto;
+    overflow: hidden;
+    background-color: #ece9e4;
+}
+
+.cloud-storage-image {
+}
+
+@media only screen and (min-width: 1200px) {
+   #cloud-storage .section-header{
+      text-align: left;
+    }
+   .cloud-storage-text {
+        padding-top: 60px;
+    }
+
+    .cloud-storage-image-box {
+      padding-top: 3%;
+      padding-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+   .cloud-storage-text {
+        padding-top: 60px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .cloud-storage-image-box {
+      padding-right: 10%;
+      padding-left: 10%;
+    }
+
+    #cloud-storage img{
+      padding-right: 20%;
+      padding-left: 20%;
+    }
+}
+
+
+/* ==========================================================================
+  14. rgpd-business Section
+   ========================================================================== */
+
+#rgpd-business {
+    max-width: 1400px;
+    margin: auto;
+    overflow: hidden;
+    background-color: white;
+}
+
+.rgpd-business-image {
+}
+
+@media only screen and (min-width: 1200px) {
+   #rgpd-business .section-header{
+      text-align: left;
+    }
+   .rgpd-business-text {
+        padding-top: 60px;
+    }
+
+    .rgpd-business-image-box {
+      padding-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+   .rgpd-business-text {
+      padding-top: 60px;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+    .rgpd-business-image-box   {
+      padding-right: 10%;
+      padding-left: 10%;
+    }
+
+    #rgpd-business img{
+      padding-right: 20%;
+      padding-left: 20%;
+    }
+}
+
+/* ==========================================================================
+  15. Join Us Section
+   ========================================================================== */
+
+#join-us {
+  /*background: url("http://res.cloudinary.com/dgmpokhth/image/upload/v1525419426/videoblocks-blue-business-background-2_h3cvzluwb_thumbnail-full01_wqi9hw.jpg") fixed no-repeat;*/
+  height:40vh;
+  background-color: rgb(236,122,111);
+}
+
+#join-us .contents{
+  color: black;
+  margin-top:20px;
+  padding:50px;
+  background-color: rgba(250,250,250,0.5);
+}
+
+/* ==========================================================================
+ 16. Counter Section Style
+ ========================================================================== */
+.counters {
+  background: url("http://www.darchitectures.com/images/articles/full/03195_038_204DA6A0.jpg") fixed;
+  position: relative;
+}
+
+.counters .facts-item {
+  text-align: center;
+  color: #fff;
+}
+
+.counters .facts-item .icon {
+  margin-bottom: 30px;
+}
+
+.counters .facts-item .icon i {
+  font-size: 50px;
+  color: #fff;
+}
+
+.counters .facts-item .fact-count h3 {
+  font-size: 35px;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.counters .facts-item .fact-count h4 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.fact-background {
+  background-color: rgba(10,10,10,0.5);
+  padding-top:10px;
+}
+
+/* ==========================================================================
+  17. Team Section
+   ========================================================================== */
+.single-team:hover .team-details {
+  opacity: 1;
+}
+
+.single-team {
+  position: relative;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 0px;
+  background: rgba(243,205,85,1);
+  overflow: hidden;
+}
+
+.single-team img {
+  width: 100%;
+}
+
+.single-team .team-inner {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.single-team .team-details {
+  text-align: center;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  transition: 0.5s;
+  border-radius: 0px;
+  background: #f1f1f1;
+  padding: 15px;
+}
+
+.single-team .team-details .team-title {
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #333;
+}
+
+.single-team .team-details p {
+  color: #333;
+}
+
+.single-team .social-list li {
+  display: inline-block;
+}
+
+.single-team .social-list li a {
+  display: block;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  width: 34px;
+  margin: 2px;
+  color: rgba(243,205,85,1);
+  font-size: 14px;
+  background: #fff;
+  border-radius: 50px;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.single-team .social-list .facebook a:hover {
+  background: #4867aa;
+  color: #fff;
+}
+
+.single-team .social-list .twitter a:hover {
+  background: #1da1f2;
+  color: #fff;
+}
+
+.single-team .social-list .google-plus a:hover {
+  background: #dd4d42;
+  color: #fff;
+}
+
+.single-team .social-list .linkedin a:hover {
+  background: #007bb6;
+  color: #fff;
+}
+
+
+/* ==========================================================================
+  18. Contact Us
+  ========================================================================== */
+.contact-us h3 {
+  font-size: 36px;
+  margin-bottom: 45px;
+}
+
+.contact-us p span {
+  color: rgba(243,205,85,1);
+  padding-left: 10px;
+}
+
+#contact {
+  background: #343a40;
+  color: #fff;
+  position: relative;
+}
+
+.form-control {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 14px;
+  border-color: #fff;
+  border-radius: 0px;
+  color: #fff;
+  background: transparent;
+  font-size: 14px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  color: #fff;
+  border-color: rgba(243,205,85,1);
+  background: transparent;
+  outline: none;
+}
+
+.btn.disabled, .btn:disabled {
+  opacity: 1;
+}
+
+.text-danger {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.list-unstyled li {
+  color: #d9534f;
+}
+
+#contact a{
+  color:white;
+}
+
+/* ==========================================================================
+19. Footer Style
+ ========================================================================== */
+footer {
+  background: #292f35;
+  padding: 20px 0;
+}
+
+.footer-links {
+  line-height: 48px;
+}
+
+.footer-links li {
+  float: left;
+}
+
+.footer-links li a {
+  color: #fff;
+  margin-right: 15px;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+}
+
+.footer-links li a:hover {
+  color: rgba(243,205,85,1);
+}
+
+.copyright {
+  margin-top: 10px;
+  float: right;
+}
+
+.copyright p {
+  color: #fff;
+}
+
+.copyright p a {
+  color: #fff;
+}
+
+.copyright p a:hover {
+  color: rgba(243,205,85,1);
+}
+
+
+
+/* ==========================================================================
+	REMOVED. Pricing Table
+	========================================================================== */
+.pricing-table {
+  padding: 0px 0px 40px 0px;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  border: transparent;
+  text-align: center;
+  background-color: #FFFFFF;
+  border: 1px solid #f1f1f1;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.pricing-table:hover {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.pricing-table .pricing-details h2 {
+  font-size: 26px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  background: #f1f1f1;
+  padding: 30px 0;
+}
+
+.pricing-table .pricing-details span {
+  display: inline-block;
+  font-size: 48px;
+  font-weight: 400;
+  color: rgba(243,205,85,1);
+  margin-bottom: 20px;
+}
+
+.pricing-table .pricing-details ul {
+  margin-bottom: 35px;
+}
+
+.pricing-table .pricing-details ul li {
+  padding: 10px;
+  font-size: 15px;
+  border-bottom: 1px dotted #f1f1f1;
+}
+
+.table-left {
+  margin-top: 20px;
+}
+
+
+/* ==========================================================================
+TO ADD. Testimonial Section Style
+ ========================================================================== */
+#testimonial {
+  background: url(../img/testimonial-bg.jpg) fixed no-repeat;
+  background-size: cover;
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+}
+
+.testimonial-item {
+  text-align: center;
+}
+
+.testimonial-item img {
+  width: 80px;
+  border: 3px solid #fff;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.testimonial-item .testimonial-text h3 {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.testimonial-item .testimonial-text span {
+  font-size: 14px;
+  color: #999;
+}
+
+.testimonial-item .testimonial-text p {
+  font-size: 14px;
+  font-weight: 400;
+  padding: 36px 10px 30px 10px;
+  margin: 0;
+  line-height: 30px;
+}
+
+.owl-theme .owl-controls .owl-page span {
+  background: rgba(243,205,85,1);
+}
+
+.owl-theme .owl-controls {
+  margin-top: 20px;
+}
+
+
+/* ==========================================================================
+20. Prop Com Style
+ ========================================================================== */
+
+#prop-com .container{
+  margin-top:120px;
+}
+
+ #prop-com .content{
+  height: 100vh;
+  margin-bottom: 60px;
+}
+
+#prop-com h1{
+  font-size: 25px;
+  text-align: center;
+}
+
+#prop-com .content ul {
+  margin: 10px;
+  padding: 10px;
+}
+
+.bullets{
+  font-size: 18px;
+  text-align: justify;
+}
+
+ul li ul li {
+  font-size: 15px;
+}
