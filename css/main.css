@@ -35,6 +35,7 @@
   18. CONTACT
   19. FOOTER
   20. PROP COM
+  21. SPONSORS
     -15.1 COMING SOON PAGE
   ------------------------------------- */
 /* ==========================================================================
@@ -1591,4 +1592,41 @@ TO ADD. Testimonial Section Style
 
 ul li ul li {
   font-size: 15px;
+}
+
+/*
+21. Sponsors
+*/
+
+#sponsors .section-title {
+  font-size: 36px;
+  color: #212121;
+  line-height: 52px;
+  padding-top: 20px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+#sponsors {
+  background: #f3f4f3;
+}
+
+#sponsors .spnsors-logo {
+  text-align: center;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 30px;
+  display: inline-block;
+  border: 1px solid #ddd;
+  background: #fff;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+#sponsors .spnsors-logo:hover {
+  border-color: transparent;
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.2);
 }
