@@ -3,14 +3,12 @@ GEM
   remote: https://rails-assets.org/
   specs:
     rack (2.0.5)
-    rails-assets-particles.js (2.0.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   rack
-  rails-assets-particles.js!
 
 RUBY VERSION
    ruby 2.5.1p57
