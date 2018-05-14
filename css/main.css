@@ -797,16 +797,21 @@ button:focus {
   5. user-features section
    ========================================================================== */
 #user-features{
-  background-color: rgb(236,122,111);
-  color:white;
+  /*background-color: rgb(236,122,111);*/
+  background-image: linear-gradient(226.08deg,#F6D147,white,white,white,white,white,white,white,#5CF2E3);
+  color:black;
+}
+
+#user-features .container {
+  margin-top: 120px;
 }
 
 #user-features .section-title {
-  color: white;
+  color: black;
 }
 
 #user-features .section-subtitle {
-  color: white;
+  color: black;
 }
 
 .item-boxes {
@@ -951,7 +956,7 @@ button:focus {
   7. mail-list-subscribe Style
    ========================================================================== */
 .mail-list-subscribe {
-  background: rgba(243,205,85,1);
+  background: #FB8F8C;
   color: #fff;
   overflow: hidden;
   position: relative;
@@ -1012,6 +1017,7 @@ button:focus {
 
 #business-intro {
   /*background: url("http://res.cloudinary.com/dgmpokhth/image/upload/v1525419426/videoblocks-blue-business-background-2_h3cvzluwb_thumbnail-full01_wqi9hw.jpg") fixed no-repeat;*/
+  margin-top:96px;
   height:70vh;
   background: url("http://res.cloudinary.com/dgmpokhth/image/upload/v1525425531/lighter_sloe6g.jpg") fixed no-repeat;
 }
