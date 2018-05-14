@@ -171,7 +171,7 @@ particlesJS.load('particles-js', 'assets/particles.json', function() {
   console.log('callback - particles.js config loaded');
 });
 
-
+// owl carousel
 $(document).ready(function(){
   $('.owl-carousel').owlCarousel(
   {
@@ -183,3 +183,35 @@ $(document).ready(function(){
 
   });
 });
+
+
+
+// direction aware 3D hover effect
+
+const xnodes = [].slice.call(document.querySelectorAll('li'), 0);
+const xdirections  = { 0: 'top', 1: 'right', 2: 'bottom', 3: 'left' };
+const xclassNames = ['in', 'out'].map((p) => Object.values(xdirections).map((d) => `${p}-${d}`)).reduce((a, b) => a.concat(b));
+
+const getDirectionKey = (ev, node) => {
+  const { width, height, top, left } = node.getBoundingClientRect();
+  const l = ev.pageX - (left + window.pageXOffset);
+  const t = ev.pageY - (top + window.pageYOffset);
+  const x = (l - (width/2) * (width > height ? (height/width) : 1));
+  const y = (t - (height/2) * (height > width ? (width/height) : 1));
+  return Math.round(Math.atan2(y, x) / 1.57079633 + 5) % 4;
+}
+
+class Item {
+  constructor(element) {
+    this.element = element;
+    this.element.addEventListener('mouseover', (ev) => this.update(ev, 'in'));
+    this.element.addEventListener('mouseout', (ev) => this.update(ev, 'out'));
+  }
+
+  update(ev, prefix) {
+    this.element.classList.remove(...xclassNames);
+    this.element.classList.add(`${prefix}-${xdirections[getDirectionKey(ev, this.element)]}`);
+  }
+}
+
+xnodes.forEach(node => new Item(node));

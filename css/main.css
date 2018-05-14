@@ -179,8 +179,8 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 
 .btn-common:hover {
   color: #fff;
-  background: #33b391;
-  border-color: #33b391;
+  background: #00BD4B;
+  border-color: #00BD4B;
   transition: all .50s ease-in-out;
   -moz-transition: all .50s ease-in-out;
   -webkit-transition: all .50s ease-in-out;
@@ -1593,6 +1593,7 @@ TO ADD. Testimonial Section Style
 
 #prop-com .container{
   margin-top:120px;
+  margin-bottom:120px;
 }
 
  #prop-com .content{
@@ -1617,5 +1618,208 @@ TO ADD. Testimonial Section Style
 
 ul li ul li {
   font-size: 15px;
+}
+
+/* ==========================================================================
+22. CTA
+ ========================================================================== */
+
+ #cta {
+  background-color:#D3D8D9;
+
+ }
+
+ #cta .item a{
+  width: 100%;
+  margin:auto;
+ }
+
+/* the important bits */
+#cta li {
+  perspective: 400px;
+  display: list-item;
+}
+#cta .info {
+  transform: rotate3d(1, 0, 0, 90deg);
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 4px;
+  pointer-events: none;
+  background-color: rgba(223, 68, 66, 0.9);
+}
+.in-top .info {
+  transform-origin: 50% 0%;
+  animation: in-top 300ms ease 0ms 1 forwards;
+}
+.in-right .info {
+  transform-origin: 100% 0%;
+  animation: in-right 300ms ease 0ms 1 forwards;
+}
+.in-bottom .info {
+  transform-origin: 50% 100%;
+  animation: in-bottom 300ms ease 0ms 1 forwards;
+}
+.in-left .info {
+  transform-origin: 0% 0%;
+  animation: in-left 300ms ease 0ms 1 forwards;
+}
+.out-top .info {
+  transform-origin: 50% 0%;
+  animation: out-top 300ms ease 0ms 1 forwards;
+}
+.out-right .info {
+  transform-origin: 100% 50%;
+  animation: out-right 300ms ease 0ms 1 forwards;
+}
+.out-bottom .info {
+  transform-origin: 50% 100%;
+  animation: out-bottom 300ms ease 0ms 1 forwards;
+}
+.out-left .info {
+  transform-origin: 0% 0%;
+  animation: out-left 300ms ease 0ms 1 forwards;
+}
+@keyframes in-top {
+  from {
+    transform: rotate3d(-1, 0, 0, 90deg);
+  }
+  to {
+    transform: rotate3d(0, 0, 0, 0deg);
+  }
+}
+@keyframes in-right {
+  from {
+    transform: rotate3d(0, -1, 0, 90deg);
+  }
+  to {
+    transform: rotate3d(0, 0, 0, 0deg);
+  }
+}
+@keyframes in-bottom {
+  from {
+    transform: rotate3d(1, 0, 0, 90deg);
+  }
+  to {
+    transform: rotate3d(0, 0, 0, 0deg);
+  }
+}
+@keyframes in-left {
+  from {
+    transform: rotate3d(0, 1, 0, 90deg);
+  }
+  to {
+    transform: rotate3d(0, 0, 0, 0deg);
+  }
+}
+@keyframes out-top {
+  from {
+    transform: rotate3d(0, 0, 0, 0deg);
+  }
+  to {
+    transform: rotate3d(-1, 0, 0, 104deg);
+  }
+}
+@keyframes out-right {
+  from {
+    transform: rotate3d(0, 0, 0, 0deg);
+  }
+  to {
+    transform: rotate3d(0, -1, 0, 104deg);
+  }
+}
+@keyframes out-bottom {
+  from {
+    transform: rotate3d(0, 0, 0, 0deg);
+  }
+  to {
+    transform: rotate3d(1, 0, 0, 104deg);
+  }
+}
+@keyframes out-left {
+  from {
+    transform: rotate3d(0, 0, 0, 0deg);
+  }
+  to {
+    transform: rotate3d(0, 1, 0, 104deg);
+  }
+}
+/* you can ignore this ones */
+#cta img{
+  width: 100%;
+  padding:40px;
+}
+
+#cta a {
+  /*background-image:linear-gradient(-10deg,rgba(234,121,110,75%),rgba(234,121,110,75%));*/
+  background-image:linear-gradient(-10deg,rgba(243,205,85,0.2),rgba(243,205,85,0.2));
+}
+
+#cta ul {
+  padding: 0;
+  margin: 0 0 50px;
+  list-style-type:none;
+  display:flex;
+  justify-content: center;
+}
+#cta ul:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#cta li {
+  position: relative;
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+  padding: 0;
+  list-style: none;
+}
+#cta li a {
+  display: inline-block;
+  vertical-align: top;
+  text-decoration: none;
+  border-radius: 4px;
+}
+#cta li h3 {
+  margin: 0;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.9);
+}
+#cta li p {
+  font-size: 12px;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.8);
+}
+#cta li .normal {
+  width: 100%;
+  height: 100%;
+  background-color: #ecf0f1;
+  color: rgba(52, 73, 94, 0.6);
+  box-shadow: inset 0 2px 20px #e6ebed;
+  text-align: center;
+  font-size: 50px;
+  line-height: 200px;
+}
+#cta li .normal svg {
+  pointer-events: none;
+  width: 50px;
+}
+#cta li .normal svg path {
+  fill: rgba(52, 73, 94, 0.2);
+}
+#cta * {
+  box-sizing: border-box;
+}
+#cta body {
+  background-color: #fff;
+}
+#cta h1 {
+  margin: 0 auto 5px;
+  text-align: center;
 }
 
