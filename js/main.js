@@ -170,3 +170,16 @@
 particlesJS.load('particles-js', 'assets/particles.json', function() {
   console.log('callback - particles.js config loaded');
 });
+
+
+$(document).ready(function(){
+  $('.owl-carousel').owlCarousel(
+  {
+    items : 4,
+    itemsDesktop : [1999,3],
+    itemsDesktopSmall : [991,2],
+    itemsMobile : [527,1]
+
+
+  });
+});
