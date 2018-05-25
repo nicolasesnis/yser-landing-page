@@ -553,6 +553,7 @@ button:focus {
   color: #fff;
   overflow: hidden;
   position: relative;
+  height:90vh;
 }
 
 #particles-js canvas{
@@ -573,7 +574,7 @@ button:focus {
 }
 
 #hero-area .contents {
-  padding: 150px 0 70px;
+  padding: 250px 0 70px;
 }
 
 #hero-area .contents h1 {
