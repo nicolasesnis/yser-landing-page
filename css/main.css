@@ -553,7 +553,6 @@ button:focus {
   color: #fff;
   overflow: hidden;
   position: relative;
-  height:90vh;
 }
 
 #particles-js canvas{
