@@ -1105,7 +1105,7 @@ button:focus {
    ========================================================================== */
 
 #dpo-interface {
-    max-width: 1400px;
+    /*max-width: 1400px;*/
     margin: auto;
     overflow: hidden;
     background-image: url("https://www.cedexis.com/wp-content/uploads/backgroundBehindScreengrabsShorter-1.jpg");
@@ -1151,7 +1151,7 @@ button:focus {
    ========================================================================== */
 
 #cloud-storage {
-    max-width: 1400px;
+    /*max-width: 1400px;*/
     margin: auto;
     overflow: hidden;
     background-color: #ece9e4;
