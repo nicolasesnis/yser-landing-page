@@ -553,11 +553,6 @@ button:focus {
    3. Hero Area
    ========================================================================== */
 #hero-area {
-  /*background: url("http://res.cloudinary.com/dgmpokhth/image/upload/v1525419426/videoblocks-blue-business-background-2_h3cvzluwb_thumbnail-full01_wqi9hw.jpg") fixed no-repeat;*/
-  /*background: url("http://res.cloudinary.com/dgmpokhth/image/upload/v1525425531/lighter_sloe6g.jpg") fixed no-repeat;*/
-  /*background-size: cover;*/
-  /*background-image: linear-gradient(rgba(234,121,110,100%), rgba(234,121,110,100%));*/
-  /*background-color: #0C3644;*/
   background-image: linear-gradient(226.08deg,rgb(80,92,169),rgb(104,96,252),rgb(80,138,208),rgb(112,221,217));
   position:relative;
   color: #fff;
@@ -1021,10 +1016,9 @@ button:focus {
    ========================================================================== */
 
 #business-intro {
-  /*background: url("http://res.cloudinary.com/dgmpokhth/image/upload/v1525419426/videoblocks-blue-business-background-2_h3cvzluwb_thumbnail-full01_wqi9hw.jpg") fixed no-repeat;*/
   margin-top:96px;
   height:70vh;
-  background: url("http://res.cloudinary.com/dgmpokhth/image/upload/v1525425531/lighter_sloe6g.jpg") fixed no-repeat;
+      background: url(../img/lighter_sloe6g.jpg) fixed no-repeat;
 }
 
 #business-intro .contents{
@@ -1246,7 +1240,6 @@ button:focus {
    ========================================================================== */
 
 #join-us {
-  /*background: url("http://res.cloudinary.com/dgmpokhth/image/upload/v1525419426/videoblocks-blue-business-background-2_h3cvzluwb_thumbnail-full01_wqi9hw.jpg") fixed no-repeat;*/
   height:40vh;
   background-color: rgb(236,122,111);
 }
@@ -1262,7 +1255,6 @@ button:focus {
  16. Counter Section Style
  ========================================================================== */
 .counters {
-  /*background: url("http://www.darchitectures.com/images/articles/full/03195_038_204DA6A0.jpg") fixed;*/
   background: url("../img/03195_038_204DA6A0.jpg") fixed;
   position: relative;
 }
