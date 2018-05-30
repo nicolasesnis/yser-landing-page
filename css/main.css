@@ -38,14 +38,21 @@
     -15.1 COMING SOON PAGE
   ------------------------------------- */
 /* ==========================================================================
-   1. IMPORT GOOGLE FONTS
+   1. IMPORT FONTS
    ========================================================================== */
-@import url("https://fonts.googleapis.com/css?family=Raleway");
+/*@import url("https://fonts.googleapis.com/css?family=Raleway");*/
+@font-face {
+font-family: 'MuseoSansCyrl300';
+font-style: normal;
+font-weight: normal;
+src: url('../fonts/MuseoSansCyrl_0.woff') format('font-woff'),
+    url('../fonts/MuseoSansCyrl_0.otf') format('opentype');
+}
 /* ==========================================================================
    2. GENERAL
    ========================================================================== */
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'MuseoSansCyrl300';
   color: #333;
   font-size: 14px;
   font-weight: 400;
@@ -74,7 +81,7 @@ a {
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'MuseoSansCyrl300';
   font-size: 40px;
   font-weight: 700;
   letter-spacing: 1px;
@@ -1257,7 +1264,8 @@ button:focus {
  16. Counter Section Style
  ========================================================================== */
 .counters {
-  background: url("http://www.darchitectures.com/images/articles/full/03195_038_204DA6A0.jpg") fixed;
+  /*background: url("http://www.darchitectures.com/images/articles/full/03195_038_204DA6A0.jpg") fixed;*/
+  background: url("../img/03195_038_204DA6A0.jpg") fixed;
   position: relative;
 }
 
