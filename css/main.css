@@ -257,7 +257,10 @@ button:focus {
   height: 40px;
   text-align: center;
   background: #ddd;
-  font-size: 16px;
+}
+
+.social-icons img{
+  width:65%;
 }
 
 .social-icons ul li a:hover {
@@ -397,7 +400,7 @@ button:focus {
   right: 15px;
 }
 
-.back-to-top i {
+.back-to-top img {
   display: block;
   width: 36px;
   height: 36px;
@@ -841,12 +844,11 @@ button:focus {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  background-color: #F41840;
 }
 
-.item-boxes .icon i {
-  font-size: 26px;
-  line-height: 60px;
-  color: rgba(243,205,85,1);
+.item-boxes .icon img {
+  width:100%;
 }
 
 .item-boxes h4 {
@@ -859,15 +861,11 @@ button:focus {
   background: rgba(243,205,85,1);
 }
 
-.item-boxes:hover .icon i {
-  color: #fff;
-}
-
 /* ==========================================================================
   6. Fonctionnement Section Style
    ========================================================================== */
 #fonctionnement {
-  background: url("https://pixteller.com/assets/storage/designs_images/2017-08-31/06/backgrounds-business-background-image-1-59a825761419d.png") fixed no-repeat;
+  background: url("../img/ezgif.com-webp-to-jpg.jpg") fixed no-repeat;
   background-size: cover;
   color: black;
   overflow: hidden;
@@ -1115,7 +1113,7 @@ button:focus {
     /*max-width: 1400px;*/
     margin: auto;
     overflow: hidden;
-    background-image: url("https://www.cedexis.com/wp-content/uploads/backgroundBehindScreengrabsShorter-1.jpg");
+    background-image: url("../img/backgroundBehindScreengrabsShorter-1");
 }
 
 #dpo-interface h2{
@@ -1255,8 +1253,8 @@ button:focus {
 
 #join-us .contents{
   color: black;
-  margin-top:20px;
-  padding:50px;
+  margin-top:35px;
+  padding:20px;
   background-color: rgba(250,250,250,0.5);
 }
 
@@ -1278,10 +1276,11 @@ button:focus {
   margin-bottom: 30px;
 }
 
-.counters .facts-item .icon i {
-  font-size: 50px;
-  color: #fff;
+.counters .facts-item .icon img {
+  width: 20%;
+  color:white;
 }
+
 
 .counters .facts-item .fact-count h3 {
   font-size: 35px;
@@ -1366,6 +1365,9 @@ button:focus {
   -moz-transition: 0.5s;
   transition: 0.5s;
 }
+.single-team .social-list img {
+  width: 65%;
+}
 
 .single-team .social-list .facebook a:hover {
   background: #4867aa;
@@ -1373,7 +1375,7 @@ button:focus {
 }
 
 .single-team .social-list .twitter a:hover {
-  background: #1da1f2;
+  background: #337DE7;
   color: #fff;
 }
 
@@ -1602,11 +1604,10 @@ TO ADD. Testimonial Section Style
 #prop-com .container{
   margin-top:120px;
   margin-bottom:120px;
+  color:white;
 }
 
  #prop-com .content{
-  height: 100vh;
-  margin-bottom: 60px;
 }
 
 #prop-com h1{
@@ -1626,6 +1627,19 @@ TO ADD. Testimonial Section Style
 
 ul li ul li {
   font-size: 15px;
+}
+
+#prop-com .outer{
+  position: relative;
+  width: 100%;
+  height: 500px;
+}
+#prop-com .inner {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%,-50%);
+  width: 80%;
+  height: 200px;
 }
 
 /* ==========================================================================
