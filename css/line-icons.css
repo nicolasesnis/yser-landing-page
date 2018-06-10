@@ -1,4 +1,4 @@
-@font-face {
+/*@font-face {
 	font-family: 'Linearicons-Free';
 	src:url('../fonts/Linearicons-Free.eot?w118d');
 	src:url('../fonts/Linearicons-Free.eot?#iefixw118d') format('embedded-opentype'),
@@ -9,9 +9,9 @@
 	font-weight: normal;
 	font-style: normal;
 }
-
+*/
 .lnr {
-	font-family: 'Linearicons-Free';
+	/*font-family: 'Linearicons-Free';*/
 	speak: none;
 	font-style: normal;
 	font-weight: normal;
