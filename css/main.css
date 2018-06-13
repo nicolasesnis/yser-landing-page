@@ -1663,7 +1663,6 @@ ul li ul li {
   left: 0;
   border-radius: 4px;
   pointer-events: none;
-  background-color: rgba(223, 68, 66, 0.9);
 }
 .in-top .info {
   transform-origin: 50% 0%;
@@ -1764,7 +1763,7 @@ ul li ul li {
 /* you can ignore this ones */
 #cta img{
   width: 100%;
-  padding:40px;
+  /*padding:40px;*/
 }
 
 #cta a {
@@ -1774,7 +1773,6 @@ ul li ul li {
 
 #cta ul {
   padding: 0;
-  margin: 0 0 50px;
   list-style-type:none;
   display:flex;
   justify-content: center;
@@ -1789,7 +1787,7 @@ ul li ul li {
   float: left;
   width: 200px;
   height: 200px;
-  margin: 5px;
+  margin: 1px;
   padding: 0;
   list-style: none;
 }
@@ -1800,8 +1798,8 @@ ul li ul li {
   border-radius: 4px;
 }
 #cta li h3 {
-  margin: 0;
-  font-size: 16px;
+  margin: auto;
+  font-size: 24px;
   color: rgba(255, 255, 255, 0.9);
 }
 #cta li p {
