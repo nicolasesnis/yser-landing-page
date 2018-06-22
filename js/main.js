@@ -215,3 +215,127 @@ class Item {
 }
 
 xnodes.forEach(node => new Item(node));
+
+// navbar toggle
+
+$('ul.navbar-nav li.dropdown').hover(function() {
+  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+}, function() {
+  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+});
+
+// method-audit
+
+var Expand = (function() {
+  var tile = $('.strips__strip');
+  var tileLink = $('.strips__strip > .strip__content');
+  var tileText = tileLink.find('.strip__inner-text');
+  var stripClose = $('.strip__close');
+  var stripNext = $('.strip__next');
+  var stripPrevious = $('.strip__previous');
+
+  var expanded  = false;
+
+  var open = function() {
+
+    var tile = $(this).parent();
+    var tileNext = $(this).parent().next();
+    var tilePrevious = $(this).parent().prev();
+
+    if (!expanded) {
+      tile.addClass('strips__strip--expanded');
+      // add delay to inner text
+      tileText.css('transition', 'all .5s .3s cubic-bezier(0.23, 1, 0.32, 1)');
+      stripClose.addClass('strip__close--show');
+      stripClose.css('transition', 'all .6s .1s cubic-bezier(0.23, 1, 0.32, 1)');
+
+      stripNext.addClass('strip__next--show');
+      stripNext.css('transition', 'all .6s .1s cubic-bezier(0.23, 1, 0.32, 1)');
+
+      stripPrevious.addClass('strip__previous--show');
+      stripPrevious.css('transition', 'all .6s .1s cubic-bezier(0.23, 1, 0.32, 1)');
+
+      expanded = true;
+    }
+  };
+
+  var close = function() {
+
+    if (expanded) {
+      tile.removeClass('strips__strip--expanded');
+      // remove delay from inner text
+      tileText.css('transition', 'all 0.15s 0 cubic-bezier(0.23, 1, 0.32, 1)');
+      stripClose.removeClass('strip__close--show');
+      stripClose.css('transition', 'all 0.2s 0s cubic-bezier(0.23, 1, 0.32, 1)');
+      stripNext.removeClass('strip__next--show');
+      stripNext.css('transition', 'all 0.2s 0s cubic-bezier(0.23, 1, 0.32, 1)');
+      stripPrevious.removeClass('strip__previous--show');
+      stripPrevious.css('transition', 'all 0.2s 0s cubic-bezier(0.23, 1, 0.32, 1)');
+      expanded = false;
+    }
+  }
+
+  var next = function() {
+
+    var tileNext = $(this).parent().next();
+
+    if (expanded) {
+      tile.removeClass('strips__strip--expanded');
+      // remove delay from inner text
+      stripClose.removeClass('strip__close--show');
+      stripNext.removeClass('strip__next--show');
+      stripPrevious.removeClass('strip__previous--show');
+      expanded = false;
+
+      tileNext.addClass('strips__strip--expanded');
+      // add delay to inner text
+      stripClose.addClass('strip__close--show');
+      stripNext.addClass('strip__next--show');
+      stripPrevious.addClass('strip__previous--show');
+
+      expanded = true;
+    }
+  }
+
+  var previous = function() {
+
+    var tilePrevious = $(this).parent().prev();
+    console.log(tilePrevious);
+
+    if (expanded) {
+
+      tile.removeClass('strips__strip--expanded');
+      // remove delay from inner text
+      stripClose.removeClass('strip__close--show');
+      stripNext.removeClass('strip__next--show');
+      stripPrevious.removeClass('strip__previous--show');
+      expanded = false;
+
+      tilePrevious.addClass('strips__strip--expanded');
+      // add delay to inner text
+      stripClose.addClass('strip__close--show');
+      stripNext.addClass('strip__next--show');
+      stripPrevious.addClass('strip__previous--show');
+
+      expanded = true;
+    }
+  }
+
+    var bindActions = function() {
+      tileLink.on('click', open);
+      stripClose.on('click', close);
+      stripNext.on('click', next);
+      stripPrevious.on('click', previous);
+    };
+
+    var init = function() {
+      bindActions();
+    };
+
+    return {
+      init: init
+    };
+
+  }());
+
+Expand.init();

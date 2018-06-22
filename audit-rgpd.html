@@ -31,7 +31,7 @@
   <body>
 
     <!-- Header Section Start -->
-    <header id="hero-area" data-stellar-background-ratio="0.5">
+    <header id="" data-stellar-background-ratio="0.5">
       <!-- Navbar Start -->
       <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar indigo">
         <div class="container">
@@ -50,11 +50,23 @@
               <li class="nav-item">
                 <a class="nav-link page-scroll" href="home.html#actu">News</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link page-scroll" href="yser-for-users.html">Particuliers</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link page-scroll dropdown-toggle" data-toggle="dropdown" href="yser-for-users.html#hero-area">Particuliers</a>
+                <ul class="dropdown-menu">
+                  <li><a class="page-scroll" href="yser-for-users.html#user-features">Qu'est ce que yser ?</a></li>
+                  <li><a class="page-scroll" href="yser-for-users.html#rgpd">Pourquoi yser ?</a></li>
+                  <li><a class="page-scroll" href="yser-for-users.html#fonctionnement">Comment ça marche ?</a></li>
+                </ul>
               </li>
               <li class="nav-item">
                 <a class="nav-link page-scroll" href="yser-for-business.html">Outils DPO</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link page-scroll dropdown-toggle" data-toggle="dropdown" href="#hero-area">Audit RGPD</a>
+                <ul class="dropdown-menu">
+                  <li><a class="page-scroll" href="audit-rgpd.html">Notre approche</a></li>
+                  <li><a class="page-scroll" href="">Êtes-vous conforme ?</a></li>
+                </ul>
               </li>
               <li class="nav-item">
                 <a class="nav-link page-scroll" href="home.html#team">Équipe</a>
@@ -84,6 +96,9 @@
               <a class="page-scroll" href="yser-for-business.html">Outils DPO</a>
             </li>
             <li>
+              <a class="page-scroll" href="audit-rgpd.html">Audits RGPD</a>
+            </li>
+            <li>
               <a class="page-scroll" href="home.html#team">Équipe</a>
             </li>
             <li >
@@ -100,134 +115,236 @@
 
     <!-- Business Intro Section Starts -->
 
-    <section id="business-intro">
+    <section id="gdpr-business">
       <div class="row justify-content-md-center">
         <div class="col-md-10">
           <div class="contents text-center">
-            <h1 class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s">Entreprises, faites le pari de la transparence</h1>
-            <p class="lead  wow fadeIn" data-wow-duration="1000ms" data-wow-delay="400ms">yser vous aide à vous conformer au RGPD et à échanger avec vos utilisateurs sur les données personnelles</p>
-            <a href="#dpo-features" class="page-scroll btn btn-common wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">Découvrir la plateforme Data Protection Officer</a>
+            <h1 class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s">Créez un lien de confiance bénéfique avec vos utilisateurs tout en vous conformant au RGPD</h1>
+            <br>
+            <p class="lead  wow fadeIn" data-wow-duration="1000ms" data-wow-delay="400ms">Nous vous proposons une approche originale basée sur les recommandations de la CNIL et nos outils de Customer Identity and Access Management pour évaluer vos besoins et mettre en place votre conformité</p>
+            <br>
+            <div>
+              <a href="#audit-presentation" class="page-scroll btn btn-common wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">Découvrir notre méthode d'audit</a>
+              <div style="height: 10px"></div>
+              <a href="#dpo-features" class="page-scroll btn btn-common wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">Passer le questionnaire de conformité</a>
+            </div>
           </div>
         </div>
       </div>
     </section>
     <!-- DPO Interaface ================================================== -->
 
+    <!-- Audit Presentation -->
+      <section id="audit-presentation" class="strips" >
+        <article class="strips__strip wow rollIn" data-wow-delay="0.2s">
+          <div class="strip__content" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.8) 0%, rgba(0,36,61,0.8) 50%), url('img/planning.jpg'); background-size:cover">
+            <h1 class="strip__title" data-name="Lorem">1<br><br>Diagnostic & Plan d'action</h1>
+            <div class="strip__inner-text">
+              <h2>1. Diagnostic & Plan d'action</h2>
+              <br>
+              <p>Évaluation de la gestion des données personnelles. Nous venons à votre rencontre afin d’obtenir une vision claire et précise des risques existants ou potentiels.
+                <ul>
+                  <li>
+                    Cartographie des traitements de donnés personnelles : Pour chaque service clé (RH, commercial/marketing, juridique, informatique), nous recensons précisément les données collectées et nous rédigeons le registre des traitements.
+                  </li>
+                  <br>
+                  <li>
+                    Nous identifions clairement et catégorisons vos prestataires sous-traitants (shadow IT) qui traitent ces données.
+                  </li>
+                  <br>
+                  <li>
+                    Nous vérifions que les données que vous transférez en dehors de l’Union Européenne le sont vers des pays reconnus comme adéquats par la Commission Européenne.
+                  </li>
+                  <br>
+                  <li>
+                    Sur la base des registres des traitements, nous identifions des actions à mener pour vous conformer aux mesures actuelles et à venir, organiser les processus internes, prévoir la gestion des données au jour le jour.
+                  </li>
+                  <br>
+                  <li>
+                    Nous analysons les modalités d’exercice des droits des personnes concernées (droit d'accès, de rectification, droit à la portabilité, retrait du consentement...).
+                  </li>
+                  <br>
+                  <li>
+                    Nous vérifions que vous respectez la réglementation au regard de vos obligations de déclaration et des procédures internes pour la collecte et la sécurité des Données.
+                  </li>
+                </ul>
+              </p>
+            </div>
+          </div>
+          <img src="img/next.png" class="strip__next"></i>
+        </article>
+        <article class="strips__strip wow slideInDown" data-wow-delay="0.4s"">
+          <div class="strip__content" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.8) 0%, rgba(0,36,61,0.8) 50%), url('img/pilotage.jpg'); background-size:cover">
+            <h1 class="strip__title" data-name="Ipsum">2<br><br>Accompagnement dans la mise en conformité</h1>
+            <div class="strip__inner-text">
+              <h2>2. Accompagnement dans la mise en conformité</h2>
+              <br>
+              <p>Sur la base de notre plan d’action, nous vous aidons à mettre en place votre conformité. Nous vous indiquons les procédures internes qui garantissent la protection des données à tout moment, en prenant en compte l’ensemble des événements qui peuvent survenir au cours de la vie d’un traitement.
+                <ul>
+                  <li>Nous effectuons la revue :
+                    <ul>
+                      <li>des mentions informatiques et libertés de vos Conditions Générales ;</li>
+                      <li>des mentions informatiques et libertés de cinq de vos principaux contrats ;</li>
+                      <li>des mentions obligatoires à faire figurer lors de la collecte des Données sur votre site Internet ou sur vos formulaires de contact ;</li>
+                      <li>des clauses contractuelles relatives au traitement des Données.</li>
+                    </ul>
+                  </li>
+                  <br>
+                  <li>
+                    Nous vous aidons à désigner un pilote de la conformité. Nous le formons au RGPD afin qu’il soit en mesure de pérenniser la conformité de votre entreprise.
+                  </li>
+                  <br>
+                  <li>
+                    Nous vous exposons nos méthodes efficaces pour gérer les demandes des personnes concernées quant à l’exercice de leurs droits.
+                  </li>
+                  <br>
+                  <li>
+                    Afin d’organiser la remontée de l’information et la communication interne, nous proposons à vos employés un séminaire de sensibilisation à la protection des données et d’introduction aux grands principes du RGPD.
+                  </li>
+                  <br>
+                  <li>
+                    Nous analysons la conformité de vos sous-traitants afin de mettre à jour vos contrats avec eux.
+                  </li>
+                </ul>
+              </p>
+            </div>
+          </div>
+          <img src="img/next.png" class="strip__next"></i>
+          <img src="img/previous.png" class="strip__previous"></i>
+        </article>
+        <article class="strips__strip wow rotateIn" data-wow-delay="0.6s"">
+          <div class="strip__content" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.8) 0%, rgba(0,36,61,0.8) 50%), url('img/risk_management.jpg'); background-size:cover">
+            <h1 class="strip__title" data-name="Dolor">3<br><br>Gestion des risques</h1>
+            <div class="strip__inner-text">
+              <h2>3. Gestion des risques</h2>
+              <br>
+              <p>Nous identifions les traitements de données personnelles susceptibles d'engendrer des risques élevés pour les droits et libertés des personnes concernées et vous aidons à vous prévenir de ces dangers.</p>
+              <ul>
+                  <li>
+                    Nous prévoyons avec vous des canaux de notification aux autorités et aux personnes concernées pour anticiper les violations de données.
+                  </li>
+                  <br>
+                  <li>
+                    Au terme de l’audit, nous vous proposons la conduite d’une analyse d’impact sur la protection des données (PIA) pour les traitements à risque.
+                  </li>
+                  <br>
+                  <li>
+                    Nous vous aidons à encadrer vos transferts de données vers des pays à risque (clauses contractuelles types, BCR et certifications).
+                  </li>
+                  <br>
+                </ul>
+            </div>
+          </div>
+          <img src="img/next.png" class="strip__next"></i>
+          <img src="img/previous.png" class="strip__previous"></i>
+        </article>
+        <article class="strips__strip wow lightSpeedIn" data-wow-delay="0.8s"">
+          <div class="strip__content" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.8) 0%, rgba(0,36,61,0.8) 50%), url('img/documentation.jpg'); background-size:cover">
+            <h1 class="strip__title" data-name="Sit">4<br><br>Documentation de la conformité</h1>
+            <div class="strip__inner-text">
+              <h2>4. Documentation de la conformité</h2>
+              <br>
+              <p>La transparence aux utilisateurs sur l'usage des donnéesest une obligation du RGPD. Mais c'est avant tout une opportunité pour votre entreprise. Nous mettons en place pour vous une communication facile d'accès apportant des explications claires et précises sur les usages et les risques associés à la collecte et au traitement des données personnelles.
+                <ul>
+                  <li>
+                    Nous vous proposons un espace en ligne pour votre entreprise où vous pouvez publier une charte de protection des données, vos registres des traitements et votre politique de transparence dans la collecte de données personnelles.
+                  </li>
+                  <br>
+                  <li>
+                    Information des personnes : nous établissons avec vous les points de contact et d’information pour les personnes concernées.
+                  </li>
+                  <br>
+                  <li>
+                    Construction d’un dossier interne mentionnant vos contrats avec les sous-traitants, vos procédures internes de gestion des risques, et les preuves que les personnes concernées ont donné leur consentement aux traitements de leurs données.
+                  </li>
+                  <br>
+                </ul>
+              </p>
+            </div>
+          </div>
+          <img src="img/next.png" class="strip__next"></i>
+          <img src="img/previous.png" class="strip__previous"></i>
+        </article>
+        <article class="strips__strip wow flipInX" data-wow-delay="1s"">
+          <div class="strip__content" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.8) 0%, rgba(0,36,61,0.8) 50%), url('img/action.jpg'); background-size:cover">
+            <h1 class="strip__title" data-name="Amet">5<br><br>Opérations et suivi dans le temps</h1>
+            <div class="strip__inner-text">
+              <h2>5. Opérations et suivi dans le temps</h2>
+              <br>
+              <ul>
+                <li>
+                  Nous vous remettons notre rapport d’audit et de recommandations de consolidation.
+                </li>
+                <br>
+                <li>
+                  Au cours des six mois qui suivent notre intervention, nous vous offrons une supervision continue de la mise en conformité.
+                </li>
+                <br>
+                <li>
+                  Nous vous proposons également l’externalisation de la fonction de délégué à la protection des données.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <img src="img/previous.png" class="strip__previous"></i>
+        </article>
+        <img src="img/exit.png" class="strip__close"></i>
+      </section>
+      </section>
+      <!-- Audit Presentation ends -->
 
-
-    <!-- Dpo Features Section Start -->
-    <section id="dpo-features" class="section">
+    <!-- Start Mail List Subscribe Section -->
+    <section class="mail-list-subscribe section">
       <div class="container">
-        <div class="section-header">
-          <h1 class="wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">Répondre aux demandes des particuliers concernant leurs données personnelles et se mettre en conformité avec le RGPD</h1>
-          <hr class="lines wow zoomIn" data-wow-delay="0.3s">
-          <!-- <p class="section-subtitle wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">yser vous aide à récupérer et à contrôler les données que les entreprises détiennent sur vous. Et c'est 100% gratuit.</p> -->
-        </div>
-        <div class="row">
-          <div class="col-md-4 col-sm-6">
-            <div class="item-boxes wow fadeInDown" data-wow-delay="0.2s">
-              <div class="image">
-                <img src="img/noun_87201_mjbw6e.png">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+              <div class="mail-list-subscribe-content text-center">
+                <h2 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Laissez nous vous coordonnées afin que nous nous contactions </h2>
+                <p class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Nous vous appellerons afin d'identifier vos besoins et convenir d'une formule qui répondra à vos attentes.</p>
+
+                <form method="POST" action="https://formspree.io/contact@be-yser.com">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <input type="text" class="form-control" id="name" name="name" placeholder="Nom" required data-error="Please enter your name">
+                      <div class="help-block with-errors"></div>
+                    </div>
+                    <div class="form-group">
+                      <input type="text" class="form-control" id="name" name="name" placeholder="Prénom" required data-error="Please enter your name">
+                      <div class="help-block with-errors"></div>
+                    </div>
+                    <div class="form-group">
+                      <input type="text" class="form-control" id="tel" name="tel" placeholder="Téléphone" required data-error="Please enter your name">
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <input type="email" placeholder="Adresse Email" id="email" class="form-control" name="email" required data-error="Please enter your email">
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <input type="text" placeholder="Enterprise" id="email" class="form-control" name="email" required data-error="Please enter your email">
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="submit-button text-center">
+                      <button class="btn btn-common" id="submit" type="submit">Essayer yser</button>
+                      <div id="msgSubmit" class="h3 text-center hidden"></div>
+                      <div class="clearfix"></div>
+                    </div>
+                  </div>
+                </div>
+              </form>
               </div>
-              <h4>Traiter et répondre aux requêtes RGPD</h4>
-              <p>Répondez aux demandes d'accès, d'oubli et de rectifcation sur notre plateforme hautement sécurisée, privée et hébergée en France.</p>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6">
-            <div class="item-boxes wow fadeInDown" data-wow-delay="0.8s">
-              <div class="image">
-                <img src="img/noun_1262251_cc_dqgpfd.png">
-              </div>
-              <h4>Suivre les requêtes reçues et les traitements effectués</h4>
-              <p>Gardez une trace complète de la gestion des demandes, de la réception de celle-ci au traitement et à la réponse</p>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6">
-            <div class="item-boxes wow fadeInDown" data-wow-delay="1.2s">
-              <div class="image">
-                <img src="img/noun_1444591_cc_copie_jqxo5z.png">
-              </div>
-              <h4>Automatiser le traitement des requêtes</h4>
-              <p>Connectez-vous à notre API et configurez le degré d'automatisation du traitement des demandes en fonction de vos besoins.</p>
-            </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- DPO-features Section End -->
-
-    <!-- DPO-interface Section End -->
-    <section id="dpo-interface">
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-5 mx-auto col-lg-12">
-            <div class="dpo-interface-text section-header">
-              <h2 class="section-title">Interface Data Protection Officer</h2>
-              <hr class="lines">
-              <p class="section-subtitle">Accédez à une interface qui permet de répondre aux demandes utilisateur d’accès, d’oubli, de rectification ou de portabilité sur des données. En tant que Data Protection Officer, soyez notifié des demandes et répondez à travers notre plateforme simplement et en toute sécurité. <br><br> Gardez une vision claire du traitement des demandes, grâce à un historique et horodatage de chaque requête, de la réception à la réponse. Nous vérifions une première fois l'identité des demandeurs, et vous transmettons les documents d'identité conjointement à la requête.</p>
-            </div>
-
-          </div>
-           <div class="dpo-interface-image-box image col-xl-6 mx-auto col-lg-12">
-            <img class="dpo-interface-image img-fluid" src="img/interface_dpo.png">
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- DPO Interface ends -->
-
-    <!-- Cloud Storage Starts -->
-    <section id="cloud-storage">
-      <div class="container">
-        <div class="row">
-           <div class="cloud-storage-image-box image col-xl-6 mx-auto col-lg-12">
-            <img class="cloud-storage-image img-fluid" src="img/core-value_f6mbrv.png">
-          </div>
-          <div class="col-xl-5 mx-auto col-lg-12">
-            <div class="cloud-storage-text section-header">
-              <h2 class="section-title">Un espace habilité à traiter des données sensibles</h2>
-              <hr class="lines">
-              <p class="section-subtitle">Notre espace de stockage numérique est hébergé au sein du data center hautement sécurisé de notre partenaire, le groupe <a target="_blank" href="https://www.be-ys.com/">be-ys</a>. Le traitement de données personnelles et sensibles fait l'objet d'une législation stricte et ne doit pas être pris à la légère. Nous avons construit avec be-ys, expert dans le traitement, la collecte et le stockage de données sensibles, l'espace le plus sécurisé possible pour permettre le partage de ces données. Optez pour la sécurité en répondant aux demandes dans notre environnement hautement sécurisé (HaDS, RGPD, BCR, ISO 27001, ...).</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Cloud Storage ends -->
-
-    <!-- RGPD Business Starts -->
-    <section id="rgpd-business">
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-6 mx-auto col-lg-12">
-            <div class="rgpd-business-text section-header">
-              <h2 class="section-title">Créez un rapport de confiance</h2>
-              <hr class="lines">
-              <p class="section-subtitle">En optant pour notre plateforme, vous faites le pari de la transparence et de la confiance. Vous mettez à disposition de vos utilisateurs un canal d'échange qui leur est dédié, et au travers duquel ils peuvent intéragir avec vous. Par ailleurs, vous démontrez votre bonne foi auprès des autorités (CNIL et Commission Européenne), et vous adoptez un principe de responsabilité. <br><br>Vous vous mettez en conformité avec certaines des nouvelles obligations issues du RGPD, tout en créant un lien de confiance bénéfique avec vos usagers.</p>
-            </div>
-
-          </div>
-           <div class="rgpd-business-image-box image col-xl-6 mx-auto col-lg-12">
-            <img class="rgpd-business-image img-fluid" src="img/What-is-GDPR_culwjc.png">
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- RGPD Business Ends -->
-
-    <!-- Join Us Starts -->
-    <section id="join-us">
-      <div class="row justify-content-md-center">
-        <div class="col-md-10">
-          <div class="contents text-center">
-            <h1 class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s">Essayer gratuitement yser aujourd'hui</h1>
-            <br><br>
-            <a href="join-yser.html" class="btn btn-common wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">Essayer</a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Join Us Ends -->
+    <!-- End Subscribe List Section -->
 
     <!-- Footer Section Start -->
     <footer>
