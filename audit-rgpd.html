@@ -136,7 +136,7 @@
 
     <!-- Audit Presentation -->
       <section id="audit-presentation" class="strips" >
-        <article class="strips__strip wow rollIn" data-wow-delay="0.2s">
+        <article class="strips__strip wow slideInUp" data-wow-delay="0.2s">
           <div class="strip__content" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.8) 0%, rgba(0,36,61,0.8) 50%), url('img/planning.jpg'); background-size:cover">
             <h1 class="strip__title" data-name="Lorem">1<br><br>Diagnostic & Plan d'action</h1>
             <div class="strip__inner-text">
@@ -165,7 +165,7 @@
                   </li>
                   <br>
                   <li>
-                    Nous vérifions que vous respectez la réglementation au regard de vos obligations de déclaration et des procédures internes pour la collecte et la sécurité des Données.
+                    Nous vérifions que vous respectez la réglementation au regard de vos obligations de déclaration et des procédures internes pour la collecte et la sécurité des données.
                   </li>
                 </ul>
               </p>
@@ -212,7 +212,7 @@
           <img src="img/next.png" class="strip__next"></i>
           <img src="img/previous.png" class="strip__previous"></i>
         </article>
-        <article class="strips__strip wow rotateIn" data-wow-delay="0.6s"">
+        <article class="strips__strip wow slideInUp" data-wow-delay="0.6s"">
           <div class="strip__content" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.8) 0%, rgba(0,36,61,0.8) 50%), url('img/risk_management.jpg'); background-size:cover">
             <h1 class="strip__title" data-name="Dolor">3<br><br>Gestion des risques</h1>
             <div class="strip__inner-text">
@@ -238,7 +238,7 @@
           <img src="img/next.png" class="strip__next"></i>
           <img src="img/previous.png" class="strip__previous"></i>
         </article>
-        <article class="strips__strip wow lightSpeedIn" data-wow-delay="0.8s"">
+        <article class="strips__strip wow slideInDown" data-wow-delay="0.8s"">
           <div class="strip__content" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.8) 0%, rgba(0,36,61,0.8) 50%), url('img/documentation.jpg'); background-size:cover">
             <h1 class="strip__title" data-name="Sit">4<br><br>Documentation de la conformité</h1>
             <div class="strip__inner-text">
@@ -265,7 +265,7 @@
           <img src="img/next.png" class="strip__next"></i>
           <img src="img/previous.png" class="strip__previous"></i>
         </article>
-        <article class="strips__strip wow flipInX" data-wow-delay="1s"">
+        <article class="strips__strip wow slideInUp" data-wow-delay="1s"">
           <div class="strip__content" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.8) 0%, rgba(0,36,61,0.8) 50%), url('img/action.jpg'); background-size:cover">
             <h1 class="strip__title" data-name="Amet">5<br><br>Opérations et suivi dans le temps</h1>
             <div class="strip__inner-text">
@@ -302,19 +302,20 @@
                 <h2 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Laissez nous vous coordonnées afin que nous nous contactions </h2>
                 <p class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Nous vous appellerons afin d'identifier vos besoins et convenir d'une formule qui répondra à vos attentes.</p>
 
-                <form method="POST" action="https://formspree.io/contact@be-yser.com">
+                <!-- <form method="POST" action="postmark.php"> -->
+                  <form method="POST" action="https://formspree.io/contact@be-yser.com">
                 <div class="row">
                   <div class="col-md-12">
                     <div class="form-group">
-                      <input type="text" class="form-control" id="name" name="name" placeholder="Nom" required data-error="Please enter your name">
+                      <input type="text" class="form-control" id="nom" name="name" placeholder="Nom" required data-error="Please enter your name">
                       <div class="help-block with-errors"></div>
                     </div>
                     <div class="form-group">
-                      <input type="text" class="form-control" id="name" name="name" placeholder="Prénom" required data-error="Please enter your name">
+                      <input type="text" class="form-control" id="prenom" name="name" placeholder="Prénom" required data-error="Please enter your name">
                       <div class="help-block with-errors"></div>
                     </div>
                     <div class="form-group">
-                      <input type="text" class="form-control" id="tel" name="tel" placeholder="Téléphone" required data-error="Please enter your name">
+                      <input type="text" class="form-control" id="tel" name="telephone" placeholder="Téléphone" required data-error="Please enter your phone number">
                       <div class="help-block with-errors"></div>
                     </div>
                   </div>
@@ -326,7 +327,7 @@
                   </div>
                   <div class="col-md-12">
                     <div class="form-group">
-                      <input type="text" placeholder="Enterprise" id="email" class="form-control" name="email" required data-error="Please enter your email">
+                      <input type="text" placeholder="Enterprise" id="entreprise" class="form-control" name="email" required data-error="Please enter your email">
                       <div class="help-block with-errors"></div>
                     </div>
                   </div>
