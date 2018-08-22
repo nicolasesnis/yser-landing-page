@@ -13,6 +13,8 @@ RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 # Put the rest of your rewrite rules here
 
 
+#redirection du traffic yser.matrice.io vers www.be-yser.com
+
 Options +FollowSymLinks
 RewriteEngine On
 RewriteBase /
