@@ -1,14 +1,14 @@
-RewriteEngine On
+#RewriteEngine On
 
 # If we receive a forwarded http request from a proxy...
-RewriteCond %{HTTP:X-Forwarded-Proto} =http [OR]
+#RewriteCond %{HTTP:X-Forwarded-Proto} =http [OR]
 
 # ...or just a plain old http request directly from the client
-RewriteCond %{HTTP:X-Forwarded-Proto} =""
-RewriteCond %{HTTPS} !=on
+#RewriteCond %{HTTP:X-Forwarded-Proto} =""
+#RewriteCond %{HTTPS} !=on
 
 # Redirect to https version
-RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+#RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 # Put the rest of your rewrite rules here
 
@@ -20,3 +20,9 @@ RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 #RewriteBase /
 #RewriteCond %{HTTP_HOST} ^yser.matrice\.io$ [NC]
 #RewriteRule ^(.*)$ http://www.be-yser.com [R=301,L]
+
+#<IfModule mod_rewrite.c>
+#  RewriteEngine On
+#  RewriteCond %{HTTP_HOST} yser.matrice\.io$ [NC]
+#  RewriteRule ^(.*)$ http://www.be-yser.com/ [L,R=301]
+#</IfModule>
