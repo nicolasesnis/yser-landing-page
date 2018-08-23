@@ -29,10 +29,3 @@ RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 #  RewriteRule ^(.*)$ http://www.be-yser.com/ [L,R=301]
 #</IfModule>
 
-#redirection du traffic be-yser.com vers www.be-yser.com
-
-Options +FollowSymLinks
-RewriteEngine On
-RewriteBase /
-RewriteCond %{HTTP_HOST} ^be-yser\.com$ [NC]
-RewriteRule ^(.*)$ http://www.be-yser.com [R=301,L]
