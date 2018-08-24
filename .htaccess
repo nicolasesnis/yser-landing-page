@@ -1,0 +1,24 @@
+#redirection du traffic vers https par défaut
+
+RewriteEngine On
+
+# If we receive a forwarded http request from a proxy...
+RewriteCond %{HTTP:X-Forwarded-Proto} =http [OR]
+
+# ...or just a plain old http request directly from the client
+RewriteCond %{HTTP:X-Forwarded-Proto} =""
+RewriteCond %{HTTPS} !=on
+
+# Redirect to https version
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Put the rest of your rewrite rules here
+
+
+#redirection du traffic yser.matrice.io vers www.be-yser.com
+
+Options +FollowSymLinks
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^yser.matrice\.io$ [NC]
+RewriteRule ^(.*)$ http://www.be-yser.com [R=301,L]
