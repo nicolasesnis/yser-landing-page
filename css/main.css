@@ -1866,7 +1866,7 @@ ul li ul li {
 }
 
 /* ==========================================================================
-  12. Audit Presentation
+  12. Diagnostic Presentation
    ========================================================================== */
 
 /** {
@@ -1903,7 +1903,7 @@ ul li ul li {
 .strips__strip:nth-child(5) {
   left: 80vw;
 }
-#audit-presentation .strips__strip:nth-child(1) .strip__content {
+#diagnostic-presentation .strips__strip:nth-child(1) .strip__content {
   border-color: #F6D047;
   border-width: 1vh;
   border-style: solid;
