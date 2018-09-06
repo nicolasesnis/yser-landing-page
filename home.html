@@ -31,7 +31,7 @@
   <body>
 
     <!-- Header Section Start -->
-    <header id="hero-area" style="height:90vh;">
+    <header>
       <!-- Navbar Start -->
       <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar indigo">
         <div class="container">
@@ -84,17 +84,66 @@
 
       </nav>
       <!-- Navbar End -->
-      <div id="particles-js" class="container">
+
+    </header>
+    <!-- Header Section End -->
+
+    <section class="d-none d-md-block" id="grappin">
+      <div id="arm">
+        <div class="arm-1"></div>
+        <div class="circle-1"></div>
+        <div class="arm-2"></div>
+        <div class="circle-2"></div>
+        <div class="arm-3"></div>
+        <div class="circle-3"></div>
+        <div class="arm-4"></div>
+        <div class="wrapper-claw-1">
+          <div class="claw-1"></div>
+        </div>
+        <div class="wrapper-claw-2">
+          <div class="claw-2"></div>
+        </div>
+        <div class="wrapper-claw-3">
+          <div class="claw-3"></div>
+        </div>
+        <div class="wrapper-claw-4">
+          <div class="claw-4"></div>
+        </div>
+        <div class="data">
+          <img src="img/icons/data.png">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12 col-md-6 left">
+          <div class="section-header">
+            <h2 class="section-title wow fadeIn typed" data-wow-duration="1000ms" data-wow-delay="0.3s"><span id="typed"></span></h2>
+            <hr class="lines wow zoomIn" data-wow-delay="0.3s">
+            <p class="section-subtitle wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">La plateforme web sécurisée pour récupérer et contrôler ses données</p>
+            <div>
+              <a href="mesdonnées.html" class="page-scroll btn btn-common wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">Découvrir mesdonnées.fr</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 right">
+          <img src="img/woman-laptop.png">
+        </div>
+      </div>
+
+    </section>
+
+    <section id="hero-area" class="d-md-none" style="height:90vh;">
+      <div id="particles-js" class="container" >
         <div class="row justify-content-md-center">
           <div class="col-md-10">
             <div class="contents text-center">
-              <h1 class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s"><span style="font-size: 75px; color:rgba(243,205,85,1)"> yser</span>,<br> Self-Data et Transparence</h1>
+              <h1 class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s"><span style="font-size: 30px; color:rgba(243,205,85,1)"> mesdonnées.fr</span>,<br> la plateforme pour récupéer et contrôler ses données personnelles</h1>
             </div>
           </div>
         </div>
       </div>
-    </header>
-    <!-- Header Section End -->
+    </section>
+
 
     <!-- Intro -->
       <section id="intro" class="strips" style="min-height: 70vh; max-height: 300vh" >
@@ -437,7 +486,7 @@
                 <a href="mesdonnées.html">MesDonnées.fr</a>
               </li>
               <li>
-                <a href="yser-for-business.html">Conformité RGPD</a>
+                <a href="diagnostic-protection.html">Diagnostic Protection des Données Personnelles</a>
               </li>
             </ul>
           </div>
@@ -485,7 +534,9 @@
     <script src="js/form-validator.min.js"></script>
     <script src="js/contact-form-script.js"></script>
     <script src="js/particle.js"></script>
-    <script type="js/owl.carousel.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/anime.min.js"></script>
+    <script src="js/typed.min.js"></script>
     <script src="js/main.js"></script>
 
     <!-- Event Counter -->

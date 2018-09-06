@@ -339,3 +339,108 @@ var Expand = (function() {
   }());
 
 Expand.init();
+
+
+// Grappin
+
+var animation = anime.timeline({
+  loop: true
+});
+
+animation.add([
+  {
+    targets: '#arm',
+    translateX: '63%',
+    duration: 2000,
+    direction: 'right',
+    easing: 'easeInOutQuad',
+    offset: 0
+   }, {
+     duration:1000,
+     targets: '.claw-1',
+     rotate:"45deg",
+     delay: 150,
+     easing: 'easeInOutQuad',
+     offset: 2000
+   }, {
+     duration:1000,
+     targets: '.wrapper-claw-1',
+     top:"110px",
+     delay: 150,
+     easing: 'easeInOutQuad',
+     offset: 2000
+    }, {
+      duration:1000,
+      targets: '.claw-2',
+      rotate:"-45deg",
+      delay: 150,
+      easing: 'easeInOutQuad',
+      offset: 2000
+    }, {
+      duration:1000,
+      targets: '.wrapper-claw-2',
+      top:"110px",
+      delay: 150,
+      easing: 'easeInOutQuad',
+      offset: 2000
+    }, {
+      duration:1000,
+      targets: '.claw-3',
+      rotate:"50deg",
+      delay: 150,
+      easing: 'easeInOutQuad',
+      offset: 2000
+    }, {
+      duration:1000,
+      targets: '.wrapper-claw-3',
+      top:"135px",
+      left:"68px",
+      delay: 150,
+      easing: 'easeInOutQuad',
+      offset: 2000
+    }, {
+      duration:1000,
+      targets: '.claw-4',
+      rotate:"-50deg",
+      delay: 150,
+      easing: 'easeInOutQuad',
+      offset: 2000
+    }, {
+      duration:1000,
+      targets: '.wrapper-claw-4',
+      top:"135px",
+      left:"151px",
+      delay: 150,
+      easing: 'easeInOutQuad',
+      offset: 2000,
+    }, {
+      duration:1000,
+      targets: '.data',
+      translateY:"35vh",
+      direction:'down',
+      delay: 150,
+      easing: 'easeInOutQuad',
+      offset: 2100,
+    }, {
+      duration:2000,
+      targets: '.data',
+      opacity:"0",
+      offset: 3100,
+    }, {
+      targets: '#arm',
+      duration: 2000,
+      left:'100rem',
+      easing: 'easeInOutQuad',
+      offset: 4000,
+    }
+]);
+
+
+// typed.js
+var typed = new Typed('#typed', {
+  strings: [
+     "mesdonnées.fr"
+  ],
+  typeSpeed: 100,
+  loop: false
+});
