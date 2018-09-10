@@ -7,12 +7,12 @@
   cursor: pointer;
   display: block;
   float: right;
-  height: 35px;
-  line-height: 50px;
-  padding: 10px 0 9px;
+  height: 6vh;
+  /*line-height: 50px;*/
+  padding: 1.5vh 0 1.5vh;
   position: relative;
   vertical-align: middle;
-  width: 44px;
+  width: 7vh;
 }
   .slicknav_btn .slicknav_icon-bar + .slicknav_icon-bar {
     margin-top: 0.188em; }
@@ -53,8 +53,7 @@
   .slicknav_nav ul {
     display: block; }
   .slicknav_nav li {
-    display: block; 
-    line-height: 30px;
+    display: block;
   }
   .slicknav_nav li:not(:first-child){
   }
@@ -62,7 +61,7 @@
     background: #ededed none repeat scroll 0 0;
     float: right;
     text-align: center;
-    width: 35px;
+    width: 3vh;
     color: #666;
   }
   .slicknav_nav .slicknav_item {
@@ -80,7 +79,7 @@
   float: left; }
 
 .slicknav_menu {
-  font-size: 16px;
+  font-size: 3vh;
   box-sizing: border-box;
 }
 .slicknav_menu ul{
@@ -91,12 +90,12 @@
   .slicknav_menu .slicknav_menutxt {
     color: #fff;
     font-weight: bold;
-    text-shadow: 0 1px 3px #000; }
+    text-shadow: 0 0.1vh 0.15vh #000; }
 
 .slicknav_btn {
-  border: 1px solid;
+  border: 0.3vh solid;
   border-radius: 0;
-  margin: 16px 15px;
+  margin: 1.5vh 1.5vh;
   -webkit-transition: all 0.2s linear;
   -moz-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
@@ -118,15 +117,15 @@
     padding: 0;
     margin: 0 0 0 20px; }
   .slicknav_nav .slicknav_row {
-    padding: 5px 10px;
-    margin: 2px 5px; }
+    padding: 0.7vh 0.8vh;
+    margin: 0.1vh 0.3vh; }
   .slicknav_nav a {
-    padding: 5px 15px;
-    margin: 2px 5px;
+    padding: 0.7vh 0.8vh;
+    margin: 0.1vh 0.3vh;
     text-decoration: none;
     color: #666; }
   .slicknav_nav .slicknav_txtnode {
-    margin-left: 15px; }
+    margin-left: 2vh; }
   .slicknav_nav .slicknav_item a {
     padding: 0;
     margin: 0; }
@@ -136,7 +135,7 @@
 
 .slicknav_brand {
   color: #fff;
-  font-size: 18px;
-  line-height: 30px;
-  padding: 7px 12px;
-  height: 44px; }
+  font-size: 2vh;
+  line-height: 3vh;
+  padding: 0.5vh 1.5vh;
+  height: 3vh; }

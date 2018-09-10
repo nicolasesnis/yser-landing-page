@@ -1,8 +1,77 @@
+/*--------------------*/
+/* RESPONSIVE STYLE */
+/*--------------------*/
+
+@media (max-width: 991px) {
+  .mu-event-counter-block {
+    height: 8vh;
+    width: 8vh;
+    font-size: 2vh;
+    margin: 0 1.5vh;
+  }
+
+  .mu-event-counter-block span {
+    font-size: 2vh;
+    padding-top: 2.3vh;
+  }
+}
+
+
+@media (max-width: 640px){
+  .mu-event-counter-block {
+    height: 3vh;
+    width: 3vh;
+    font-size: 1vh;
+  }
+
+  .mu-event-counter-block span {
+    font-size: 2.5vh;
+    padding-top: 2vh;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .mu-event-counter-area {
+    margin-top: 2.3vh;
+  }
+
+  .mu-event-counter-block span {
+    font-size: 2.2vh;
+    padding-top: 2vh;
+  }
+
+  .mu-event-counter-block {
+    height: 5vh;
+    width: 5vh;
+    font-size: 1.9vh;
+    margin: 0 0.3vh;
+  }
+}
+
+
+
+@media (max-width: 360px) {
+  .mu-event-counter-block {
+    height: 5vh;
+    width: 5vh;
+    font-size: 1.5vh;
+  }
+
+  .mu-event-counter-block span {
+    font-size: 2vh;
+    padding-top: 1.5vh;
+    line-height: 2vh;
+  }
+}
+
+
+
 /* only small desktops */
 /* tablets */
 /* only small tablets */
 @media (min-width: 768px) and (max-width: 991px) {
-  #hero-area .contents h1 {
+  /*#hero-area .contents h1 {
     font-size: 42px;
   }
 
@@ -16,11 +85,11 @@
 
   .item-boxes h4 {
     font-size: 18px;
-  }
+  }*/
   #features .show-box img {
     display: none;
   }
-  .pricing-table .pricing-details ul li {
+  /*.pricing-table .pricing-details ul li {
     font-size: 12px;
   }
   .counters .facts-item .fact-count h4 {
@@ -38,12 +107,12 @@
   #blog .blog-item-text h3 {
     font-size: 14px;
     line-height: 20px;
-  }
+  }*/
 }
 
 /* mobile or only mobile */
 @media (max-width: 767px) {
-  .section-header .section-title {
+  /*.section-header .section-title {
     font-size: 20px;
   }
   #hero-area .contents {
@@ -56,17 +125,17 @@
   #gdpr-business h1 {
     font-size: 30px;
     line-height: 50px;
-  }
+  }*/
   #features .show-box img {
     display: none;
   }
-  #features .box-item .text h4 {
+  /*#features .box-item .text h4 {
     font-size: 14px;
-  }
+  }*/
   .controls {
     margin: 0px;
   }
-  .controls .btn {
+  /*.controls .btn {
     font-size: 13px;
     padding: 7px 7px;
   }
@@ -90,7 +159,7 @@
   }
   .footer-links li a {
     margin-right: 10px;
-  }
+  }*/
   .copyright {
     float: left;
   }

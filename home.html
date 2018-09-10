@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/home.css">
 
   </head>
   <body>
@@ -34,36 +35,37 @@
     <header>
       <!-- Navbar Start -->
       <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar indigo">
-        <div class="container">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-            <a href="home.html" class="navbar-brand"><img class="img-fulid" src="img/20180404_yser_logo_adcsn1.png" alt=""></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
-              <i class="lnr lnr-menu"></i>
-            </button>
-          </div>
-          <div class="collapse navbar-collapse" id="main-navbar">
-            <ul class="nav navbar-nav mr-auto w-100 justify-content-end">
-              <li class="nav-item dropdown">
-                <a class="nav-link page-scroll dropdown-toggle" data-toggle="dropdown" href="mesdonnées.html#hero-area">MesDonnées.fr</a>
-                <ul class="dropdown-menu">
-                  <li><a class="page-scroll" href="mesdonnées.html#hero-area">La plateforme</a></li>
-                  <li><a class="page-scroll" href="mesdonnées.html#rgpd">Pourquoi MesDonnées ?</a></li>
-                  <li><a class="page-scroll" href="mesdonnées.html#fonctionnement">Comment ça marche ?</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link page-scroll" href="diagnostic-protection.html#hero-area">Diagnostic Protection des Données Personnelles</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link page-scroll" href="yser.html">yser</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link page-scroll" href="#contact">Contact</a>
-              </li>
-            </ul>
-          </div>
+
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <a href="home.html" class="navbar-brand"><img class="img-fulid" src="img/20180404_yser_logo_adcsn1.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="lnr lnr-menu"></i>
+          </button>
         </div>
+
+        <div class="collapse navbar-collapse" id="main-navbar">
+          <ul class="nav navbar-nav mr-auto w-100 justify-content-end">
+            <li class="nav-item dropdown">
+              <a class="nav-link page-scroll dropdown-toggle" data-toggle="dropdown" href="mesdonnées.html#hero-area">MesDonnées.fr</a>
+              <ul class="dropdown-menu">
+                <li><a class="page-scroll" href="mesdonnées.html">La plateforme</a></li>
+                <li><a class="page-scroll" href="mesdonnées.html#rgpd">Pourquoi MesDonnées ?</a></li>
+                <li><a class="page-scroll" href="mesdonnées.html#fonctionnement">Comment ça marche ?</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link page-scroll" href="diagnostic-protection.html">Diagnostic Protection des Données Personnelles</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link page-scroll" href="yser.html">yser</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link page-scroll" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+
 
         <!-- Mobile Menu Start -->
         <ul class="mobile-menu">
@@ -88,8 +90,8 @@
     </header>
     <!-- Header Section End -->
 
-    <section class="d-none d-md-block" id="grappin">
-      <div id="arm">
+    <section id="hero-area">
+      <div id="arm" class="d-none d-lg-block">
         <div class="arm-1"></div>
         <div class="circle-1"></div>
         <div class="arm-2"></div>
@@ -115,9 +117,9 @@
       </div>
 
       <div class="row">
-        <div class="col-sm-12 col-md-6 left">
+        <div class="col-md-12 col-lg-6 left">
           <div class="section-header">
-            <h2 class="section-title wow fadeIn typed" data-wow-duration="1000ms" data-wow-delay="0.3s"><span id="typed"></span></h2>
+            <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s"><span id="typed"></span></h2>
             <hr class="lines wow zoomIn" data-wow-delay="0.3s">
             <p class="section-subtitle wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">La plateforme web sécurisée pour récupérer et contrôler ses données</p>
             <div>
@@ -125,14 +127,13 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-12 col-md-6 right">
+        <div class="d-none d-lg-block col-lg-6 right">
           <img src="img/woman-laptop.png">
         </div>
       </div>
-
     </section>
 
-    <section id="hero-area" class="d-md-none" style="height:90vh;">
+    <!-- <section id="hero-area" class="d-md-none" style="height:90vh;">
       <div id="particles-js" class="container" >
         <div class="row justify-content-md-center">
           <div class="col-md-10">
@@ -142,7 +143,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
 
     <!-- Intro -->
@@ -155,10 +156,10 @@
               <img src="img/shipwheel.png">
             </div>
             <div class="strip__inner-text first">
-              <h2>Et s'il était possible d'avoir un contrôle total sur ses données ?</h2>
+              <h1>Et s'il était possible d'avoir un contrôle total sur ses données ?</h1>
               <br>
-              <p class="d-none d-md-block">C'est un fait, lorsque vous interagissez avec une entreprise, vous perdez la main sur vos données personnelles. Nous avons développé MesDonnées.fr, une plateforme en ligne sécurisée qui vous permet de récupérer et de contrôler vos données personnelles.
-              </p>
+              <h3>C'est un fait, lorsque vous interagissez avec une entreprise, vous perdez la main sur vos données personnelles. Nous avons développé MesDonnées.fr, une plateforme en ligne sécurisée qui vous permet de récupérer et de contrôler vos données personnelles.
+              </h3>
               <a href="mesdonnées.html" style="white-space: normal" class="btn btn-common">Découvrir mesdonnées.fr</a>
             </div>
           </div>
@@ -171,10 +172,10 @@
               <img src="img/collaboration.png">
             </div>
             <div class="strip__inner-text second">
-              <h2>Comment transformer la RGPD en une opportunité ?</h2>
+              <h1>Comment transformer la RGPD en une opportunité ?</h1>
               <br>
-              <p class="d-none d-md-block">Depuis le 25 mai 2018, vous devez respecter de nouvelles obligations en matière de traitement des données personnelles. Nous vous aidons à offrir à vos utilisateurs, clients et colaborateurs une véritable protection de leurs données personnelles.
-              </p>
+              <h3>Depuis le 25 mai 2018, vous devez respecter de nouvelles obligations en matière de traitement des données personnelles. Nous vous aidons à offrir à vos utilisateurs, clients et colaborateurs une véritable protection de leurs données personnelles.
+              </h3>
               <a href="diagnostic-protection.html" style="white-space: normal" class="btn btn-common">Découvrir notre méthode de diagnostic</a>
             </div>
           </div>
@@ -268,203 +269,196 @@
     <!-- Actu Section -->
     <section id="actu" class="section">
       <!-- Container Starts -->
-      <div class="container">
-        <div class="section-header">
-          <h2 class="section-title">Actu</h2>
-          <hr class="lines">
-          <p class="section-subtitle">Chaque jour les choses bougent chez yser... En voici un aperçu :</p>
+
+      <div class="section-header">
+        <h2 class="section-title">Actu</h2>
+        <hr class="lines">
+        <p class="section-subtitle">Chaque jour les choses bougent chez yser... En voici un aperçu :</p>
+      </div>
+      <div class="owl-carousel owl-theme">
+        <div class="actu-item">
+          <!-- Actu Item Starts -->
+          <div class="actu-item-wrapper">
+            <div class="actu-item-img">
+              <a target="_blank" href="http://cloudweek.paris/fr/accueil/">
+              <!-- img size must be 532 * 330 pixels -->
+                <img src="img/trophee_du_cloud.png" alt="">
+              </a>
+            </div>
+            <div class="actu-item-text">
+              <div class="meta-tags">
+                <span class="date"><i class="lnr  lnr-clock"></i>22/06/2018</span>
+                <span><a target="_blank" href="http://cloudweek.paris/fr/accueil/" class="btn-rm">Lire plus <i class="lnr lnr-arrow-right"></i></a></span>
+              </div>
+              <h3>
+                <a href="http://cloudweek.paris/fr/accueil/">yser finaliste du prix Startup de l'année 2018</a>
+              </h3>
+              <p>
+              yser est finaliste des Trophées du Cloud de EuroCloudFrance pour le prix Startup de l'année 2018 ! Rendez-vous le 3 juillet à la CloudWeekParis pour découvrir en quoi yser peut vous aider à reprendre le contrôle sur vos données personnelles.
+              </p>
+            </div>
+          </div>
+          <!-- Actu Item Wrapper Ends-->
         </div>
-        <div class="owl-carousel owl-theme">
-          <div class="actu-item">
-            <!-- Actu Item Starts -->
-            <div class="actu-item-wrapper">
-              <div class="actu-item-img">
-                <a target="_blank" href="http://cloudweek.paris/fr/accueil/">
+        <div class="actu-item">
+          <!-- Actu Item Starts -->
+          <div class="actu-item-wrapper">
+            <div class="actu-item-img">
+              <a target="_blank" href="https://matrice.io/lancement-yser-24mai.pdf">
+              <!-- img size must be 532 * 330 pixels -->
+                <img src="img/Dd-1QlbWAAAes_X_vfurfr.png" alt="">
+              </a>
+            </div>
+            <div class="actu-item-text">
+              <div class="meta-tags">
+                <span class="date"><i class="lnr  lnr-clock"></i>25/05/2018</span>
+                <span><a target="_blank" href="https://matrice.io/lancement-yser-24mai.pdf" class="btn-rm">Lire plus <i class="lnr lnr-arrow-right"></i></a></span>
+              </div>
+              <h3>
+                <a href="https://matrice.io/lancement-yser-24mai.pdf">Soirée de lancement de yser à l'École 42</a>
+              </h3>
+              <p>
+              Merci à tous les participants de notre soirée de lancement à l'École 42, la veille de la mise en application du RGPD"
+              </p>
+            </div>
+          </div>
+          <!-- Actu Item Wrapper Ends-->
+        </div>
+        <div class="actu-item">
+          <!-- Actu Item Starts -->
+          <div class="actu-item-wrapper">
+            <div class="actu-item-img">
+              <a target="_blank" href="https://www.linkedin.com/company/be-yser/">
                 <!-- img size must be 532 * 330 pixels -->
-                  <img src="img/trophee_du_cloud.png" alt="">
-                </a>
-              </div>
-              <div class="actu-item-text">
-                <div class="meta-tags">
-                  <span class="date"><i class="lnr  lnr-clock"></i>22/06/2018</span>
-                  <!-- <span class="comments"><a href="#"><i class="lnr lnr-bubble"></i> 24 Comments</a></span> -->
-                  <span><a target="_blank" href="http://cloudweek.paris/fr/accueil/" class="btn-rm">Lire plus <i class="lnr lnr-arrow-right"></i></a></span>
-                </div>
-                <h3>
-                  <a href="http://cloudweek.paris/fr/accueil/">yser finaliste du prix Startup de l'année 2018</a>
-                </h3>
-                <p>
-                yser est finaliste des Trophées du Cloud de EuroCloudFrance pour le prix Startup de l'année 2018 ! Rendez-vous le 3 juillet à la CloudWeekParis pour découvrir en quoi yser peut vous aider à reprendre le contrôle sur vos données personnelles.
-                </p>
-              </div>
+                <img src="img/85a149a9-fdc1-4728-9c5b-633b8dbe9415-original_uthwzl.jpg" alt="">
+              </a>
             </div>
-            <!-- Actu Item Wrapper Ends-->
-          </div>
-          <div class="actu-item">
-            <!-- Actu Item Starts -->
-            <div class="actu-item-wrapper">
-              <div class="actu-item-img">
-                <a target="_blank" href="https://matrice.io/lancement-yser-24mai.pdf">
-                <!-- img size must be 532 * 330 pixels -->
-                  <img src="img/Dd-1QlbWAAAes_X_vfurfr.png" alt="">
-                </a>
+            <div class="actu-item-text">
+              <div class="meta-tags">
+                <span class="date"><i class="lnr  lnr-clock"></i>17/04/2018</span>
+                <span><a target="_blank" href="https://www.linkedin.com/company/be-yser/" class="btn-rm">Lire plus <i class="lnr lnr-arrow-right"></i></a></span>
               </div>
-              <div class="actu-item-text">
-                <div class="meta-tags">
-                  <span class="date"><i class="lnr  lnr-clock"></i>25/05/2018</span>
-                  <!-- <span class="comments"><a href="#"><i class="lnr lnr-bubble"></i> 24 Comments</a></span> -->
-                  <span><a target="_blank" href="https://matrice.io/lancement-yser-24mai.pdf" class="btn-rm">Lire plus <i class="lnr lnr-arrow-right"></i></a></span>
-                </div>
-                <h3>
-                  <a href="https://matrice.io/lancement-yser-24mai.pdf">Soirée de lancement de yser à l'École 42</a>
-                </h3>
-                <p>
-                Merci à tous les participants de notre soirée de lancement à l'École 42, la veille de la mise en application du RGPD"
-                </p>
-              </div>
+              <h3>
+                <a href="https://www.linkedin.com/company/be-yser/">yser est grand lauréat du prix BNP</a>
+              </h3>
+              <p>
+              yser a remporté samedi 14 avril le prix BNP Paribas des entreprises en cours de création au concours Total EDHEC Entreprendre.
+              </p>
             </div>
-            <!-- Actu Item Wrapper Ends-->
           </div>
-          <div class="actu-item">
-            <!-- Actu Item Starts -->
-            <div class="actu-item-wrapper">
-              <div class="actu-item-img">
-                <a target="_blank" href="https://www.linkedin.com/company/be-yser/">
-                  <!-- img size must be 532 * 330 pixels -->
-                  <img src="img/85a149a9-fdc1-4728-9c5b-633b8dbe9415-original_uthwzl.jpg" alt="">
-                </a>
-              </div>
-              <div class="actu-item-text">
-                <div class="meta-tags">
-                  <span class="date"><i class="lnr  lnr-clock"></i>17/04/2018</span>
-                  <!-- <span class="comments"><a href="#"><i class="lnr lnr-bubble"></i> 24 Comments</a></span> -->
-                  <span><a target="_blank" href="https://www.linkedin.com/company/be-yser/" class="btn-rm">Lire plus <i class="lnr lnr-arrow-right"></i></a></span>
-                </div>
-                <h3>
-                  <a href="https://www.linkedin.com/company/be-yser/">yser est grand lauréat du prix BNP</a>
-                </h3>
-                <p>
-                yser a remporté samedi 14 avril le prix BNP Paribas des entreprises en cours de création au concours Total EDHEC Entreprendre.
-                </p>
-              </div>
-            </div>
-            <!-- Actu Item Wrapper Ends-->
-          </div>
+          <!-- Actu Item Wrapper Ends-->
+        </div>
 
-          <div class="actu-item">
-            <!-- Actu Item Starts -->
-            <div class="actu-item-wrapper">
-              <div class="actu-item-img">
-                <a target="_blank" href="https://www.facebook.com/events/357670848068555/">
-                  <img src="img/journee_i5vs4s.jpg" alt="">
-                </a>
-              </div>
-              <div class="actu-item-text">
-                <div class="meta-tags">
-                  <span class="date"><i class="lnr  lnr-clock"></i>24/03/2018</span>
-                  <!-- <span class="comments"><a href="#"><i class="lnr lnr-bubble"></i> 24 Comments</a></span> -->
-                  <span><a target="_blank" href="https://www.facebook.com/events/357670848068555/" class="btn-rm">Lire plus <i class="lnr lnr-arrow-right"></i></a></span>
-                </div>
-                <h3>
-                  <a href="https://www.facebook.com/events/357670848068555/">yser en finale du Concours Total Edhec Entreprendre</a>
-                </h3>
-                <p>
-                yser a été retenu parmi les trois finalistes du Concours TEE. RDV samedi 14/04 à la CCI Grand Lille pour la journée de l'Entrepreneuriat et la finale.
-                </p>
-              </div>
+        <div class="actu-item">
+          <!-- Actu Item Starts -->
+          <div class="actu-item-wrapper">
+            <div class="actu-item-img">
+              <a target="_blank" href="https://www.facebook.com/events/357670848068555/">
+                <img src="img/journee_i5vs4s.jpg" alt="">
+              </a>
             </div>
-            <!-- Actu Item Wrapper Ends-->
+            <div class="actu-item-text">
+              <div class="meta-tags">
+                <span class="date"><i class="lnr  lnr-clock"></i>24/03/2018</span>
+                <span><a target="_blank" href="https://www.facebook.com/events/357670848068555/" class="btn-rm">Lire plus <i class="lnr lnr-arrow-right"></i></a></span>
+              </div>
+              <h3>
+                <a href="https://www.facebook.com/events/357670848068555/">yser en finale du Concours Total Edhec Entreprendre</a>
+              </h3>
+              <p>
+              yser a été retenu parmi les trois finalistes du Concours TEE. RDV samedi 14/04 à la CCI Grand Lille pour la journée de l'Entrepreneuriat et la finale.
+              </p>
+            </div>
           </div>
+          <!-- Actu Item Wrapper Ends-->
+        </div>
 
-          <div class="actu-item">
-            <!-- Actu Item Starts -->
-            <div class="actu-item-wrapper">
-              <div class="actu-item-img">
-                <a target="_blank" href="https://twitter.com/EuroCloudFrance/status/962974749667266560">
-                  <img src="img/journeeee_xqebfc.jpg" alt="">
-                </a>
-              </div>
-              <div class="actu-item-text">
-                <div class="meta-tags">
-                  <span class="date"><i class="lnr  lnr-clock"></i>15/02/2018</span>
-                  <!-- <span class="comments"><a href="#"><i class="lnr lnr-bubble"></i> 24 Comments</a></span> -->
-                  <span><a target="_blank" href="https://twitter.com/EuroCloudFrance/status/962974749667266560" class="btn-rm">Lire plus <i class="lnr lnr-arrow-right"></i></a></span>
-                </div>
-                <h3>
-                  <a href="https://twitter.com/EuroCloudFrance/status/962974749667266560">yser @ Conférence RGPD Eurocloud France</a>
-                </h3>
-                <p>
-                 Dévoilement de yser jeudi 15 février à la Conférence RGPD de EuroCloud France à la CCI de Paris.
-                </p>
-              </div>
+        <div class="actu-item">
+          <!-- Actu Item Starts -->
+          <div class="actu-item-wrapper">
+            <div class="actu-item-img">
+              <a target="_blank" href="https://twitter.com/EuroCloudFrance/status/962974749667266560">
+                <img src="img/journeeee_xqebfc.jpg" alt="">
+              </a>
             </div>
-            <!-- actu Item Wrapper Ends-->
+            <div class="actu-item-text">
+              <div class="meta-tags">
+                <span class="date"><i class="lnr  lnr-clock"></i>15/02/2018</span>
+                <span><a target="_blank" href="https://twitter.com/EuroCloudFrance/status/962974749667266560" class="btn-rm">Lire plus <i class="lnr lnr-arrow-right"></i></a></span>
+              </div>
+              <h3>
+                <a href="https://twitter.com/EuroCloudFrance/status/962974749667266560">yser @ Conférence RGPD Eurocloud France</a>
+              </h3>
+              <p>
+               Dévoilement de yser jeudi 15 février à la Conférence RGPD de EuroCloud France à la CCI de Paris.
+              </p>
+            </div>
           </div>
+          <!-- actu Item Wrapper Ends-->
         </div>
       </div>
+
     </section>
     <!-- actu Section End -->
 
     <!-- Contact Section Start -->
     <section id="contact" class="section" data-stellar-background-ratio="-0.2">
       <div class="contact-form">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6 col-sm-6 col-xs-12">
-              <div class="contact-us">
-                <h3>Contact</h3>
-                <div class="contact-address">
-                  <p>yser, Matrice 42</p>
-                  <p class="phone">Phone : <span>+33 6 14 08 25 47</span></p>
-                  <p class="email">E-mail : <a href="mailto:contact@be-yser.com" >contact@be-yser.com</a></p>
-                </div>
-                <div class="social-icons">
-                  <ul>
-                    <li class="facebook">
-                      <a target="_blank" href="https://www.facebook.com/yser.official/">
-                        <img src="img/icons/facebook.png">
-                      </a>
-                    </li>
-                    <li class="twitter">
-                      <a target="_blank" href="https://twitter.com/be_yser">
-                        <img src="img/icons/twitter.png">
-                        </i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
+        <div class="row">
+          <div class="col-lg-6 col-sm-6 col-xs-12">
+            <div class="contact-us">
+              <h3>Contact</h3>
+              <div class="contact-address">
+                <p>yser, Matrice 42</p>
+                <p class="phone">Phone : <span>+33 6 14 08 25 47</span></p>
+                <p class="email">E-mail : <a href="mailto:contact@be-yser.com" >contact@be-yser.com</a></p>
+              </div>
+              <div class="social-icons">
+                <ul>
+                  <li class="facebook">
+                    <a target="_blank" href="https://www.facebook.com/yser.official/">
+                      <img src="img/icons/facebook.png">
+                    </a>
+                  </li>
+                  <li class="twitter">
+                    <a target="_blank" href="https://twitter.com/be_yser">
+                      <img src="img/icons/twitter.png">
+                      </i>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </div>
-            <div class="col-lg-6 col-sm-6 col-xs-12">
-              <div class="contact-block">
-                <form method="POST" action="https://formspree.io/contact@be-yser.com">
-                  <div class="row">
-                    <div class="col-md-12">
-                      <div class="form-group">
-                        <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required data-error="Please enter your name">
-                        <div class="help-block with-errors"></div>
-                      </div>
-                    </div>
-                    <div class="col-md-12">
-                      <div class="form-group">
-                        <input type="email" placeholder="Your Email" id="email" class="form-control" name="email" required data-error="Please enter your email">
-                        <div class="help-block with-errors"></div>
-                      </div>
-                    </div>
-                    <div class="col-md-12">
-                      <div class="form-group">
-                        <textarea class="form-control" id="message" placeholder="Your Message" name="message" rows="8" data-error="Write your message" required></textarea>
-                        <div class="help-block with-errors"></div>
-                      </div>
-                      <div class="submit-button text-center">
-                        <button class="btn btn-common" id="submit" type="submit">Send Message</button>
-                        <div id="msgSubmit" class="h3 text-center hidden"></div>
-                        <div class="clearfix"></div>
-                      </div>
+          </div>
+          <div class="col-lg-6 col-sm-6 col-xs-12">
+            <div class="contact-block">
+              <form method="POST" action="https://formspree.io/contact@be-yser.com">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required data-error="Please enter your name">
+                      <div class="help-block with-errors"></div>
                     </div>
                   </div>
-                </form>
-              </div>
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <input type="email" placeholder="Your Email" id="email" class="form-control" name="email" required data-error="Please enter your email">
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <textarea class="form-control" id="message" placeholder="Your Message" name="message" rows="8" data-error="Write your message" required></textarea>
+                      <div class="help-block with-errors"></div>
+                    </div>
+                    <div class="submit-button text-center">
+                      <button class="btn btn-common" id="submit" type="submit">Send Message</button>
+                      <div id="msgSubmit" class="h3 text-center hidden"></div>
+                      <div class="clearfix"></div>
+                    </div>
+                  </div>
+                </div>
+              </form>
             </div>
           </div>
         </div>
@@ -474,26 +468,24 @@
 
     <!-- Footer Section Start -->
     <footer>
-      <div class="container">
-        <div class="row">
-          <!-- Footer Links -->
-          <div class="col-lg-6 col-sm-6 col-xs-12">
-            <ul class="footer-links">
-              <li>
-                <a href="#hero-area">Accueil</a>
-              </li>
-              <li>
-                <a href="mesdonnées.html">MesDonnées.fr</a>
-              </li>
-              <li>
-                <a href="diagnostic-protection.html">Diagnostic Protection des Données Personnelles</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-lg-6 col-sm-6 col-xs-12">
-            <div class="copyright">
-              <p>All copyrights reserved &copy; 2018 - Designed & Developed by yser</p>
-            </div>
+      <div class="row">
+        <!-- Footer Links -->
+        <div class="col-lg-6 col-sm-6 col-xs-12">
+          <ul class="footer-links">
+            <li>
+              <a href="#hero-area">Accueil</a>
+            </li>
+            <li>
+              <a href="mesdonnées.html">MesDonnées.fr</a>
+            </li>
+            <li>
+              <a href="diagnostic-protection.html">Diagnostic Protection des Données Personnelles</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-6 col-sm-6 col-xs-12">
+          <div class="copyright">
+            <p>All copyrights reserved &copy; 2018 - Designed & Developed by yser</p>
           </div>
         </div>
       </div>
@@ -538,6 +530,7 @@
     <script src="js/anime.min.js"></script>
     <script src="js/typed.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/home.js"></script>
 
     <!-- Event Counter -->
     <script type="text/javascript" src="js/jquery.countdown.min.js"></script>
