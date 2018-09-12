@@ -1,0 +1,227 @@
+
+/* ==========================================================================
+  9. Business Intro Section
+   ========================================================================== */
+
+#hero-area {
+  height:70vh;
+  /*background: url(../img/lighter_sloe6g.jpg) fixed no-repeat;*/
+  position:relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#hero-area .btn{
+  white-space: initial;
+}
+
+#hero-area canvas{
+  position:absolute;
+  z-index: -1;
+  top:0;
+  bottom:0;
+  background: #003E7A;
+}
+
+#hero-area .contents{
+  color: black;
+  margin-top:10%;
+  padding:5%;
+  background-color: rgba(250,250,250,0.5)
+}
+
+/* ==========================================================================
+  11. dpo-features section
+   ========================================================================== */
+#dpo-features{
+  background-color: #003E7A;
+  padding:10vh 4vh;
+}
+
+#dpo-features .section-header{
+  padding-right:4vh;
+  padding-left:4vh;
+}
+
+#dpo-features .image{
+  display: inline-flex;
+  vertical-align: middle;
+}
+
+#dpo-features .image img {
+  width: 18vh;
+  height: 18vh;
+}
+
+#dpo-features .item-boxes{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 22px;
+  padding: 2vh;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  height:100%;
+  background-color:rgba(174,209,255,0.8);
+}
+
+#dpo-features .item-boxes:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  background-color:rgba(174,209,255,1);
+}
+
+#dpo-features .col-sm-12 {
+  margin-top:2vh;
+}
+
+/* ==========================================================================
+  12. DPO Interface Section
+   ========================================================================== */
+
+#dpo-interface {
+    padding:5vh 4vh;
+    /*background-image: url("../img/background-cedexis.jpg");
+    background-size:cover;*/
+    background-color: #003E7A;
+}
+#dpo-interface .section-title{
+  color:white;
+}
+#dpo-interface .section-subtitle{
+  color:white;
+}
+
+.dpo-interface-text{
+  padding:3vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  height:100%;
+  text-align: left;
+}
+#dpo-interface .lines{
+  margin:0;
+}
+
+.dpo-interface-image {
+  padding:1vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#dpo-interface img{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 100%;
+}
+
+
+/* ==========================================================================
+  13. Cloud Storage Section
+   ========================================================================== */
+#cloud-storage {
+    padding:5vh 4vh;
+    /*background-image: url("../img/background-cedexis.jpg");
+    background-size:cover;*/
+    background-color: #003E7A;
+}
+
+#cloud-storage .section-title{
+  color:white;
+}
+#cloud-storage .section-subtitle{
+  color:white;
+}
+
+.cloud-storage-text{
+  padding:3vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  height:100%;
+  text-align: left;
+}
+#cloud-storage .lines{
+  margin:0;
+}
+
+.cloud-storage-image {
+  padding:1vh;
+  max-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#cloud-storage img{
+  max-height: 100%;
+}
+
+
+
+/* ==========================================================================
+  14. rgpd-business Section
+   ========================================================================== */
+#rgpd-business {
+    padding:5vh 4vh;
+    /*background-image: url("../img/background-cedexis.jpg");
+    background-size:cover;*/
+    background-color: #003E7A;
+}
+
+#rgpd-business .section-title{
+  color:white;
+}
+#rgpd-business .section-subtitle{
+  color:white;
+}
+
+.rgpd-business-text{
+  padding:3vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  height:100%;
+  text-align: left;
+}
+#rgpd-business .lines{
+  margin:0;
+}
+
+.rgpd-business-image {
+  padding:1vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-height: 60vh;
+}
+
+#rgpd-business img{
+  max-height: 100%;
+}
+
+
+
+/* ==========================================================================
+  15. Join Us Section
+   ========================================================================== */
+
+#join-us {
+  background-color: #F96966;
+}
+
+#join-us .contents{
+  color: black;
+  margin:4vh;
+  padding:3vh 15vh;
+  background-color: rgba(250,250,250,0.5);
+}

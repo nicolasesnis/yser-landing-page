@@ -9,13 +9,6 @@
   position: relative;
 }
 
-#particles-js canvas{
-  position:absolute;
-  top:0;
-  left:0;
-
-}
-
 #hero-area .overlay {
   position: absolute;
   width: 100%;

@@ -9,7 +9,7 @@
     <meta name="keywords" content="RGPD, yser, données, cloud, transparence">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="author" content="yser">
-    <title>yser, Self-Sovereign Identity for Documents and ID</title>
+    <title>MesDonnées.fr, récupérer ses données personnelles</title>
     <meta name="description" content="Nous vous permettons de demander à n'importe quelle entreprise de vous transférer les données qu'elle a sur vous. Et ça, gratuitement." />
     <link rel="icon" href="img/icon_yser_hzyhpy.png" />
 
@@ -48,15 +48,19 @@
         <div class="collapse navbar-collapse" id="main-navbar">
           <ul class="nav navbar-nav mr-auto w-100 justify-content-end">
             <li class="nav-item dropdown">
-              <a class="nav-link page-scroll dropdown-toggle" data-toggle="dropdown" href="#hero-area">MesDonnées.fr</a>
-              <ul class="dropdown-menu">
+              <a class="nav-link page-scroll dropdown-toggle"  href="#hero-area">MesDonnées.fr</a>
+              <ul class="dropdown-menu dropdown-menu-right">
                 <li><a class="page-scroll" href="mesdonnées.html">La plateforme</a></li>
                 <li><a class="page-scroll" href="#rgpd">Pourquoi MesDonnées ?</a></li>
                 <li><a class="page-scroll" href="#fonctionnement">Comment ça marche ?</a></li>
               </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link page-scroll" href="diagnostic-protection.html">Diagnostic Protection des Données Personnelles</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link page-scroll dropdown-toggle" href="mesdonnées-entreprises.html">Entreprises</a>
+              <ul class="dropdown-menu dropdown-menu-right">
+                <li><a class="page-scroll" href="mesdonnées-entreprises.html">MesDonnées.fr pour les entreprises</a></li>
+                <li><a class="page-scroll" href="diagnostic-protection.html">Diagnostic Protection des Données Personnelles</a></li>
+              </ul>
             </li>
             <li class="nav-item">
               <a class="nav-link page-scroll" href="yser.html">yser</a>
@@ -72,6 +76,9 @@
         <ul class="mobile-menu">
           <li>
             <a class="page-scroll" href="mesdonnées.html">MesDonnées.fr</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="mesdonnées-entreprises.html">Partenariats Entreprises</a>
           </li>
           <li>
             <a class="page-scroll" href="diagnostic-protection.html">Diagnostic Protection des Données Personnelles</a>
@@ -130,13 +137,13 @@
 
       <div class="waveWrapper waveAnimation">
         <div class="waveWrapperInner bgTop">
-          <div class="wave waveTop" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-top.png')"></div>
+          <div class="wave waveTop" style="background-image: url('img/wave-top.png')"></div>
         </div>
         <div class="waveWrapperInner bgMiddle">
-          <div class="wave waveMiddle" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-mid.png')"></div>
+          <div class="wave waveMiddle" style="background-image: url('img/wave-mid.png')"></div>
         </div>
         <div class="waveWrapperInner bgBottom">
-          <div class="wave waveBottom" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-bot.png')"></div>
+          <div class="wave waveBottom" style="background-image: url('img/wave-bot.png')"></div>
         </div>
       </div>
     </section>
@@ -277,28 +284,22 @@
 
         <div class="row justify-content-center">
           <div class="col-lg-8">
-              <div class="mail-list-subscribe-content text-center">
-                <h2 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">EARLY USER LIST</h2>
-                <p class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">MesDonnées.fr est en cours de tests et sera bientôt disponible. Vous souhaitez être averti lorsque la plateforme sera prête ? Inscrivez-vous ici !</p>
+            <div class="mail-list-subscribe-content text-center" style="color:black">
+              <h2 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">EARLY USER LIST</h2>
+              <p class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">MesDonnées.fr est en cours de tests et sera bientôt disponible. Vous souhaitez être averti lorsque la plateforme sera prête ? Inscrivez-vous ici !</p>
 
-                <form method="POST" action="https://formspree.io/contact@be-yser.com">
-                  <div class="row">
-                    <div class="col-md-12">
-                      <div class="form-group">
-                        <input type="email" placeholder="Votre adresse email" id="email" class="form-control" name="email" required data-error="Please enter your email">
-                        <div class="help-block with-errors"></div>
-                      </div>
-                    </div>
-                    <div class="col-md-12">
-                      <div class="submit-button text-center">
-                        <button class="btn btn-common" id="submit" type="submit">Rejoindre la communauté</button>
-                        <div id="msgSubmit" class="h3 text-center hidden"></div>
-                        <div class="clearfix"></div>
-                      </div>
-                    </div>
+              <!-- Begin MailChimp Signup Form -->
+              <div id="mc_embed_signup" style="display:flex;flex-direction: column;justify-content: center;align-items: center;margin-top:3vh">
+                <form action="https://matrice.us18.list-manage.com/subscribe/post?u=656ed142f6afdb44ca5d9fa2a&amp;id=32a2089dc7" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate>
+                  <div id="mc_embed_signup_scroll" style="width: 40vh">
+                    <input type="email" value="" class="form-control form-control-sm" name="EMAIL" id="mce-EMAIL" placeholder="Adresse email" required>
+                    <input type="submit" class="btn btn-common" value="S'inscrire" name="subscribe" id="mc-embedded-subscribe">
                   </div>
                 </form>
               </div>
+              <!--End mc_embed_signup-->
+
+            </div>
           </div>
         </div>
     </section>
