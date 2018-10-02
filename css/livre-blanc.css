@@ -3,20 +3,11 @@
   background:#292f35;
 }
 
-.row {
-  padding-top:6vh;
-
-}
-
-.col-lg-6{
-  padding:2vh;
+.box{
+  padding:8vh 8vh 3vh 8vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-form{
-  width: 80%;
 }
 
 #hero-area img{
@@ -40,8 +31,7 @@ form{
 .text {
   color:#fff;
   text-align:justify;
-  padding: 8vh;
-
+  border-radius: 22px;
 }
 
 h1{
@@ -49,3 +39,9 @@ h1{
   color: #fff;
   text-align: center;
 }
+
+.content {
+  padding-top: 3vh;
+}
+
+
