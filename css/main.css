@@ -149,6 +149,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   transition: all 0.2s linear;
   display: inline-block;
   margin-top:2vh;
+  white-space: normal;
 }
 
 .btn:focus,

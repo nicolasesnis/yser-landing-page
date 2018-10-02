@@ -1,0 +1,51 @@
+#hero-area{
+  min-height:90vh;
+  background:#292f35;
+}
+
+.row {
+  padding-top:6vh;
+
+}
+
+.col-lg-6{
+  padding:2vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+form{
+  width: 80%;
+}
+
+#hero-area img{
+  height:50vh;
+  filter:alpha(opacity=80);
+    -moz-opacity: 0.8;
+    opacity:0.8;
+
+}
+
+#hero-area img:hover{
+  filter:alpha(opacity=100);
+    -moz-opacity: 1;
+    opacity:1;
+}
+
+.justify-content-center{
+  display:flex;
+}
+
+.text {
+  color:#fff;
+  text-align:justify;
+  padding: 8vh;
+
+}
+
+h1{
+  padding-bottom:5vh;
+  color: #fff;
+  text-align: center;
+}
