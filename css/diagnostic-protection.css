@@ -7,6 +7,10 @@
   background-size: cover;
 }
 
+#hero-area h1{
+  font-size: 4vh
+}
+
 #hero-area .contents{
   color: black;
   margin-top:7%;
@@ -323,6 +327,24 @@
   margin-top:0;
 }
 
+/* ==========================================================================
+  14. Startups
+   ========================================================================== */
+
+#startups{
+  background-color:#AED1FF;
+  padding:7vh;
+}
+
+#livre-blanc .btn {
+  margin-top:0;
+}
+
+#startups img {
+  padding: 5vh;
+  height: 30vh;
+}
+
 
 /* ==========================================================================
   15. Join Us Section
@@ -335,6 +357,8 @@
 #join-us .contents{
   color: black;
   margin:4vh;
-  padding:3vh 15vh;
+  padding:3vh 5vh;
   background-color: rgba(250,250,250,0.5);
 }
+
+

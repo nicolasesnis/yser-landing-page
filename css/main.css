@@ -723,8 +723,9 @@ TO ADD. Testimonial Section Style
 }
 
 .form-control {
-  width: 100%;
+  width: 90%;
   margin-bottom: 1.5vh;
+  display: inline-flex;
   padding: 1vh;
   border-color: #fff;
   border-radius: 0px;
