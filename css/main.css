@@ -27,7 +27,7 @@
 body {
   font-family: 'MuseoSansCyrl300';
   color: #333;
-  font-size: 2vh;
+  font-size: 1.5vh;
   font-weight: 400;
   background: #fff;
   overflow-x: hidden;
@@ -38,7 +38,7 @@ html {
 }
 
 p {
-  font-size: 2vh;
+  font-size: 1.5vh;
 }
 
 a:hover, a:focus {
@@ -53,21 +53,21 @@ a {
 }
 
 h1{
-  font-size: 5vh; !important
+  font-size: 4.5vh; !important
   line-height: 1.5vh; !important
 }
 
 h2{
-  font-size: 3vh; !important
+  font-size: 2.5vh; !important
 }
 
 h3{
-  font-size:2.5vh; !important
+  font-size:2vh; !important
   line-height: 1.5vh; !important
 }
 
 h4{
-  font-size:2vh; !important
+  font-size:1.5vh; !important
 }
 
 ul {
@@ -107,7 +107,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 }
 
 .section-header .section-title {
-  font-size: 5vh;
+  font-size: 4.5vh;
   margin-top: 0;
   text-transform: uppercase;
   font-weight: 700;
@@ -122,7 +122,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 .section-header .section-subtitle {
   margin-top: 2vh;
   color: #333;
-  font-size: 2.5vh;
+  font-size: 2vh;
 }
 
 .section-header .lines {
@@ -137,7 +137,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
    2.2 Buttons
    ========================================================================== */
 .btn {
-  font-size: 2vh;
+  font-size: 1.5vh;
   padding: 3vh 4vh;
   border-radius: 0px;
   font-weight: 400;
@@ -193,7 +193,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 .btn-lg {
   padding: 2vh 3vh;
   text-transform: uppercase;
-  font-size: 2vh;
+  font-size: 1.5vh;
 }
 
 .btn-rm {
@@ -543,7 +543,7 @@ nav img {
 
 .navbar-nav .dropdown-menu{
   margin-top:1vh;
-  font-size:2vh;
+  font-size:1.5vh;
 }
 
 .navbar-nav ul li a{
@@ -731,7 +731,7 @@ TO ADD. Testimonial Section Style
   border-radius: 0px;
   color: #fff;
   background: transparent;
-  font-size: 2vh;
+  font-size: 1.5vh;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
