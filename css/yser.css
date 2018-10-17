@@ -1,33 +1,35 @@
-
 /* ==========================================================================
   12. yser
    ========================================================================== */
 
-
 #hero-area div {
- height: 50vh;
- background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('../img/speech_at_tee.jpg');
- background-size: cover;
- display:table-cell;
- vertical-align:middle;
- text-align:center
+  height: 50vh;
+  background-image: linear-gradient(
+      -225deg,
+      rgba(0, 101, 168, 0.6) 0%,
+      rgba(0, 36, 61, 0.6) 50%
+    ),
+    url('../img/speech_at_tee.jpg');
+  background-size: cover;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
 }
 
-#hero-area img{
+#hero-area img {
   width: 20%;
 }
 
 #nos-valeurs .container {
-  margin-top:5%;
-  margin-bottom:5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
-
 
 /* ==========================================================================
  16. Counter Section Style
  ========================================================================== */
 .counters {
-  background: url("../img/03195_038_204DA6A0.jpg") fixed;
+  background: url('../img/03195_038_204DA6A0.jpg') fixed;
   position: relative;
 }
 
@@ -42,36 +44,34 @@
 
 .counters .facts-item .icon img {
   width: 20%;
-  color:white;
+  color: white;
 }
-
 
 .counters .facts-item .fact-count h3 {
   color: #fff;
   margin-bottom: 2vh;
 }
 
-
 .fact-background {
-  background-color: rgba(10,10,10,0.5);
-  padding-top:1.5vh;
+  background-color: rgba(10, 10, 10, 0.5);
+  padding-top: 1.5vh;
 }
 
 /* ==========================================================================
   17. Team Section
    ========================================================================== */
-#team{
-  position:relative;
+#team {
+  position: relative;
 }
 
-#particles-js{
-  position:absolute;
-  top:0;
-  bottom:0;
-  left:0;
-  right:0;
+#particles-js {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   z-index: -1;
-  background-image: linear-gradient(#68BCFF, #AED1FF, #68BCFF);
+  background-image: linear-gradient(#68bcff, #aed1ff, #68bcff);
 }
 
 .single-team:hover .team-details {
@@ -84,7 +84,7 @@
   transition: 0.5s;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
   border-radius: 0px;
-  background: rgba(243,205,85,1);
+  background: rgba(243, 205, 85, 1);
   overflow: hidden;
 }
 
@@ -128,7 +128,7 @@
   text-align: center;
   width: 3vh;
   margin: 0.1vh;
-  color: rgba(243,205,85,1);
+  color: rgba(243, 205, 85, 1);
   background: #fff;
   border-radius: 4vh;
   -webkit-transition: 0.5s;
@@ -145,7 +145,7 @@
 }
 
 .single-team .social-list .twitter a:hover {
-  background: #337DE7;
+  background: #337de7;
   color: #fff;
 }
 
@@ -159,13 +159,12 @@
   color: #fff;
 }
 
-
 /* ==========================================================================
   10. Logos Section
    ========================================================================== */
 
 #sponsors .section-title {
-  font-size: 3vh;
+  font-size: 2rem;
   color: #212121;
   padding-top: 2.5vh;
   text-align: center;
@@ -195,11 +194,9 @@
   box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.2);
 }
 
-
 /*Nos valeurs*/
 
-#nos-valeurs{
+#nos-valeurs {
   padding: 5vh;
   text-align: justify;
 }
-

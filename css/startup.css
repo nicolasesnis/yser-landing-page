@@ -1,135 +1,126 @@
 #hero-area {
-
-
 }
 
-#hero-area .row{
+#hero-area .row {
   width: 100%;
-  margin-left:0;
-  margin-right:0;
-  margin-top:10vh;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 10vh;
 }
 
 #hero-area .row .right {
-  padding-left:0;
-  padding-right:0;
+  padding-left: 0;
+  padding-right: 0;
 }
 
-#hero-area .row .right img{
+#hero-area .row .right img {
   width: 100%;
 }
 
 #hero-area .row .left {
-  background:#003E7A ;
-
+  background: #003e7a;
 }
 
-
-#hero-area .section-header{
+#hero-area .section-header {
   height: 100%;
-  padding:2vh;
-  display:flex;
+  padding: 2vh;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.masque{
+.masque {
   padding: 10%;
-  min-height:50vh;
-  display:flex;
+  min-height: 50vh;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   border-radius: 3vh;
   padding: 2vh;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  background: rgba(255,255,255,0.5);
+  background: rgba(255, 255, 255, 0.5);
 }
 
-#offre{
-  min-height:60vh;
-  background-color:#AED1FF;
-  padding-top:5vh;
-  padding-bottom:5vh;
+#offre {
+  min-height: 60vh;
+  background-color: #aed1ff;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
 }
 
 #offre .masque {
   text-align: center;
-  border: solid #F6D047;
+  border: solid #f6d047;
 }
 
-#offre ul{
-  padding-left:2vh;
-  padding-right:2vh;
+#offre ul {
+  padding-left: 2vh;
+  padding-right: 2vh;
   list-style-position: inside;
-
 }
 
 #offre ul li {
-  font-size:2vh;
-  margin:3vh;
+  font-size: 1.2rem;
+  margin: 3vh;
 }
 
-#offre h2{
-  color:black;
-  margin:0;
+#offre h2 {
+  color: black;
+  margin: 0;
 }
 
-#offre .section-header{
-  margin-bottom:0;
-      width: 65%;
-    border-radius: 3vh;
-    background-color: #F6D047;
-    padding:3vh;
-    align-items: center;
+#offre .section-header {
+  margin-bottom: 0;
+  width: 65%;
+  border-radius: 3vh;
+  background-color: #f6d047;
+  padding: 3vh;
+  align-items: center;
 }
 
-
-#pitch{
-  background-color: #F96966;
-  padding-top:10vh;
-  padding-bottom:7vh;
+#pitch {
+  background-color: #f96966;
+  padding-top: 10vh;
+  padding-bottom: 7vh;
 }
 
-#pitch h1{
-  color:black;
+#pitch h1 {
+  color: black;
 }
 
-#pitch h3{
-  color:black;
+#pitch h3 {
+  color: black;
 }
 
-#pitch ul{
+#pitch ul {
   list-style-position: inside;
-
-
 }
 
 #pitch ul li {
-  color:black;
-  font-size:2vh;
-  margin:3vh;
+  color: black;
+  font-size: 1.2rem;
+  margin: 3vh;
   border-radius: 2vh;
-  background: rgba(255,255,255,0.5);
-  padding:2vh;
-  margin-bottom:1vh;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 2vh;
+  margin-bottom: 1vh;
 }
-
 
 /* ==========================================================================
   15. Join Us Section
    ========================================================================== */
 
 #join-us {
-  background-color: #003E7A
+  background-color: #003e7a;
 }
 
-#join-us .contents{
-  color:black;
+#join-us .contents {
+  color: black;
   border-radius: 2vh;
-  margin:4vh;
-  padding:3vh 5vh;
-  background-color: rgba(250,250,250,0.5);
+  margin: 4vh;
+  padding: 3vh 5vh;
+  background-color: rgba(250, 250, 250, 0.5);
 }

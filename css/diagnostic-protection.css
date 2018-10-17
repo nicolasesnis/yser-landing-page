@@ -7,16 +7,16 @@
   background-size: cover;
 }
 
-#hero-area h1{
-  font-size: 4vh;
+#hero-area h1 {
+  font-size: 2rem;
 }
 
-#hero-area .contents{
+#hero-area .contents {
   color: black;
-  margin-top:7%;
-  margin-bottom:7%;
-  padding:5%;
-  background-color: rgba(250,250,250,0.5)
+  margin-top: 7%;
+  margin-bottom: 7%;
+  padding: 5%;
+  background-color: rgba(250, 250, 250, 0.5);
 }
 
 /* ==========================================================================
@@ -31,7 +31,7 @@
   text-align: center;
   overflow: hidden;
   color: white;
-  position:relative;
+  position: relative;
 }
 #diagnostic-presentation .strips__strip {
   will-change: width, left, z-index, height;
@@ -58,7 +58,7 @@
   left: 80vw;
 }
 #diagnostic-presentation .strips__strip:nth-child(1) .strip__content {
-  border-color: #F6D047;
+  border-color: #f6d047;
   border-width: 1vh;
   border-style: solid;
   transform: translate3d(-100%, 0, 0);
@@ -66,7 +66,7 @@
   animation-delay: 0.1s;
 }
 #diagnostic-presentation .strips__strip:nth-child(2) .strip__content {
-  border-color:  #AED1FF;
+  border-color: #aed1ff;
   border-width: 1vh;
   border-style: solid;
   transform: translate3d(0, 100%, 0);
@@ -74,7 +74,7 @@
   animation-delay: 0.2s;
 }
 #diagnostic-presentation .strips__strip:nth-child(3) .strip__content {
-  border-color: #68BCFF;
+  border-color: #68bcff;
   border-width: 1vh;
   border-style: solid;
   transform: translate3d(0, -100%, 0);
@@ -82,7 +82,7 @@
   animation-delay: 0.3s;
 }
 .strips__strip:nth-child(4) .strip__content {
-  border-color: #003E7A;
+  border-color: #003e7a;
   border-width: 1vh;
   border-style: solid;
   transform: translate3d(0, 100%, 0);
@@ -90,7 +90,7 @@
   animation-delay: 0.4s;
 }
 .strips__strip:nth-child(5) .strip__content {
-  border-color: #F96966;
+  border-color: #f96966;
   border-width: 1vh;
   border-style: solid;
   transform: translate3d(100%, 0, 0);
@@ -143,16 +143,16 @@
 }
 
 #diagnostic-presentation .strip__content p {
-  font-size: 2vh;
+  font-size: 1rem;
 }
 
 #diagnostic-presentation .strip__content li {
-  text-align:left;
-  font-size: 2vh;
+  text-align: left;
+  font-size: 1rem;
 }
 
 #diagnostic-presentation .strip__content ul li ul {
-  padding-left:4vh;
+  padding-left: 4vh;
 }
 
 #diagnostic-presentation .strip__content:hover:before {
@@ -160,7 +160,7 @@
   opacity: 0.1;
 }
 #diagnostic-presentation .strip__content:before {
-  content: "";
+  content: '';
   position: absolute;
   z-index: 1;
   top: 0;
@@ -209,19 +209,19 @@
   transform: translate(-50%, -50%) scale(1);
 }
 #diagnostic-presentation .strip__title {
-  padding:3vh;
+  padding: 3vh;
   display: block;
   margin: 0;
   position: relative;
   z-index: 2;
   width: 100%;
-  font-size: 3vh;
+  font-size: 1.5rem;
   color: white;
   transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
 }
 @media screen and (max-width: 1400px) {
   #diagnostic-presentation .strip__title {
-    font-size: 22px;
+    font-size: 1.2rem;
   }
 }
 #diagnostic-presentation .strip__close {
@@ -312,32 +312,30 @@
   }
 }
 
-
-
 /* ==========================================================================
   13. Livre Blanc
    ========================================================================== */
 
-#livre-blanc{
-  background-color:#003E7A;
-  padding:7vh;
+#livre-blanc {
+  background-color: #003e7a;
+  padding: 7vh;
 }
 
 #livre-blanc .btn {
-  margin-top:0;
+  margin-top: 0;
 }
 
 /* ==========================================================================
   14. Startups
    ========================================================================== */
 
-#startups{
-  background-color:#AED1FF;
-  padding:7vh;
+#startups {
+  background-color: #aed1ff;
+  padding: 7vh;
 }
 
 #livre-blanc .btn {
-  margin-top:0;
+  margin-top: 0;
 }
 
 #startups img {
@@ -345,20 +343,17 @@
   height: 30vh;
 }
 
-
 /* ==========================================================================
   15. Join Us Section
    ========================================================================== */
 
 #join-us {
-  background-color: #F96966;
+  background-color: #f96966;
 }
 
-#join-us .contents{
+#join-us .contents {
   color: black;
-  margin:4vh;
-  padding:3vh 5vh;
-  background-color: rgba(250,250,250,0.5);
+  margin: 4vh;
+  padding: 3vh 5vh;
+  background-color: rgba(250, 250, 250, 0.5);
 }
-
-

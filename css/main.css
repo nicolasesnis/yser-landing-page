@@ -27,7 +27,7 @@
 body {
   font-family: 'MuseoSansCyrl300';
   color: #333;
-  font-size: 2vh;
+  font-size: 1rem;
   font-weight: 400;
   background: #fff;
   overflow-x: hidden;
@@ -38,7 +38,7 @@ html {
 }
 
 p {
-  font-size: 2vh;
+  font-size: 1rem;
 }
 
 a:hover, a:focus {
@@ -53,21 +53,21 @@ a {
 }
 
 h1{
-  font-size: 4.5vh; !important
+  font-size: 2rem; !important
   line-height: 1.5vh; !important
 }
 
 h2{
-  font-size: 2.5vh; !important
+  font-size: 1.5rem; !important
 }
 
 h3{
-  font-size:2vh; !important
+  font-size:1rem; !important
   line-height: 1.5vh; !important
 }
 
 h4{
-  font-size:1.5vh; !important
+  font-size:1rem; !important
 }
 
 ul {
@@ -107,7 +107,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 }
 
 .section-header .section-title {
-  font-size: 4.5vh;
+  font-size: 2rem;
   margin-top: 0;
   text-transform: uppercase;
   font-weight: 700;
@@ -120,9 +120,9 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 }
 
 .section-header .section-subtitle {
-  margin-top: 2vh;
+  margin-top: 1.2rem;
   color: #333;
-  font-size: 2vh;
+  font-size: 1.2rem;
 }
 
 .section-header .lines {
@@ -137,7 +137,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
    2.2 Buttons
    ========================================================================== */
 .btn {
-  font-size: 1.5vh;
+  font-size: 1.1rem;
   padding: 3vh 4vh;
   border-radius: 0px;
   font-weight: 400;
@@ -193,7 +193,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 .btn-lg {
   padding: 2vh 3vh;
   text-transform: uppercase;
-  font-size: 1.5vh;
+  font-size: 1.1rem;
 }
 
 .btn-rm {
@@ -390,7 +390,7 @@ button:focus {
   height: 4vh;
   line-height: 3.5vh;
   color: #fff;
-  font-size: 2vh;
+  font-size: 1.1rem;
   text-align: center;
   border-radius: 0.5vh;
   background-color: rgba(243,205,85,1);
@@ -543,7 +543,7 @@ nav img {
 
 .navbar-nav .dropdown-menu{
   margin-top:1vh;
-  font-size:1.5vh;
+  font-size:1rem;
 }
 
 .navbar-nav ul li a{
@@ -622,7 +622,7 @@ footer {
 }
 
 .pricing-table .pricing-details h2 {
-  font-size: 26px;
+  font-size: 1.2rem;
   font-weight: 700;
   color: #333;
   margin-bottom: 20px;
@@ -633,7 +633,7 @@ footer {
 
 .pricing-table .pricing-details span {
   display: inline-block;
-  font-size: 48px;
+  font-size: 2rem;
   font-weight: 400;
   color: rgba(243,205,85,1);
   margin-bottom: 20px;
@@ -645,7 +645,7 @@ footer {
 
 .pricing-table .pricing-details ul li {
   padding: 10px;
-  font-size: 15px;
+  font-size: 0.9rem;
   border-bottom: 1px dotted #f1f1f1;
 }
 
@@ -677,17 +677,17 @@ TO ADD. Testimonial Section Style
 }
 
 .testimonial-item .testimonial-text h3 {
-  font-size: 15px;
+  font-size: 0.9rem;
   font-weight: 700;
 }
 
 .testimonial-item .testimonial-text span {
-  font-size: 14px;
+  font-size: 0.9rem;
   color: #999;
 }
 
 .testimonial-item .testimonial-text p {
-  font-size: 14px;
+  font-size: 0.9rem;
   font-weight: 400;
   padding: 36px 10px 30px 10px;
   margin: 0;
@@ -731,7 +731,7 @@ TO ADD. Testimonial Section Style
   border-radius: 0px;
   color: #fff;
   background: transparent;
-  font-size: 1.5vh;
+  font-size: 1rem;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
@@ -750,7 +750,7 @@ TO ADD. Testimonial Section Style
 }
 
 .text-danger {
-  font-size: 2vh;
+  font-size: 1rem;
   margin-top: 1.5vh;
 }
 
